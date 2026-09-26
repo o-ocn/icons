@@ -39,12 +39,21 @@
 | <img src="icons/localsend.png" width="40" height="40" alt="LocalSend" /> | **LocalSend** | 512×512 `PNG` | [web.localsend.org](https://web.localsend.org/zh-CN) | [🔗 直链](https://o-ocn.github.io/icons/icons/localsend.png) | [⚡ CDN](https://cdn.jsdelivr.net/gh/o-ocn/icons@main/icons/localsend.png) | LocalSend 官方 512x512 高清标志 |
 | <img src="icons/oopz.png" width="40" height="40" alt="Oopz" /> | **Oopz** | 128×128 `PNG` | [web.oopz.cn](https://web.oopz.cn/) | [🔗 直链](https://o-ocn.github.io/icons/icons/oopz.png) | [⚡ CDN](https://cdn.jsdelivr.net/gh/o-ocn/icons@main/icons/oopz.png) | Oopz 官方语音开黑标志 |
 | <img src="icons/douyin.svg" width="40" height="40" alt="抖音" /> | **抖音** | Vector `SVG` | [douyin.com](https://www.douyin.com/) | [🔗 直链](https://o-ocn.github.io/icons/icons/douyin.svg) | [⚡ CDN](https://cdn.jsdelivr.net/gh/o-ocn/icons@main/icons/douyin.svg) | 抖音官方音符矢量标志 |
+| <img src="icons/tieba.svg" width="40" height="40" alt="百度贴吧" /> | **百度贴吧** | Vector `SVG` | [tieba.baidu.com](https://tieba.baidu.com/) | [🔗 直链](https://o-ocn.github.io/icons/icons/tieba.svg) | [⚡ CDN](https://cdn.jsdelivr.net/gh/o-ocn/icons@main/icons/tieba.svg) | 百度贴吧官方矢量标志 |
+| <img src="icons/qianmo.png" width="40" height="40" alt="阡陌居" /> | **阡陌居** | 128×128 `PNG` | [1000qm.vip](http://www.1000qm.vip/) | [🔗 直链](https://o-ocn.github.io/icons/icons/qianmo.png) | [⚡ CDN](https://cdn.jsdelivr.net/gh/o-ocn/icons@main/icons/qianmo.png) | 阡陌居论坛专属可爱猫猫头像 |
+| <img src="icons/soushuba.png" width="40" height="40" alt="搜书吧" /> | **搜书吧** | 128×128 `PNG` | 搜书吧官网 | [🔗 直链](https://o-ocn.github.io/icons/icons/soushuba.png) | [⚡ CDN](https://cdn.jsdelivr.net/gh/o-ocn/icons@main/icons/soushuba.png) | 搜书吧专属可爱小猫头像（略——！！） |
+| <img src="icons/netease.png" width="40" height="40" alt="网易邮箱" /> | **网易邮箱** | 128×128 `PNG` | [email.163.com](https://email.163.com/) | [🔗 直链](https://o-ocn.github.io/icons/icons/netease.png) | [⚡ CDN](https://cdn.jsdelivr.net/gh/o-ocn/icons@main/icons/netease.png) | 网易 163 邮箱官方标志 |
+| <img src="icons/threedm.png" width="40" height="40" alt="3DM论坛" /> | **3DM论坛** | 128×128 `PNG` | [bbs.3dmgame.com](https://bbs.3dmgame.com/forum.php) | [🔗 直链](https://o-ocn.github.io/icons/icons/threedm.png) | [⚡ CDN](https://cdn.jsdelivr.net/gh/o-ocn/icons@main/icons/threedm.png) | 3DM 游戏论坛官方标志 |
+| <img src="icons/fabiaoqing.png" width="40" height="40" alt="发表情" /> | **发表情** | 128×128 `PNG` | [fabiaoqing.com](https://fabiaoqing.com/) | [🔗 直链](https://o-ocn.github.io/icons/icons/fabiaoqing.png) | [⚡ CDN](https://cdn.jsdelivr.net/gh/o-ocn/icons@main/icons/fabiaoqing.png) | 发表情网官方标志 |
+| <img src="icons/weshine.png" width="40" height="40" alt="闪萌" /> | **闪萌** | 128×128 `PNG` | [weshineapp.com](https://www.weshineapp.com/) | [🔗 直链](https://o-ocn.github.io/icons/icons/weshine.png) | [⚡ CDN](https://cdn.jsdelivr.net/gh/o-ocn/icons@main/icons/weshine.png) | 闪萌表情官方闪电标志 |
+| <img src="icons/pkdoutu.ico" width="40" height="40" alt="斗图啦" /> | **斗图啦** | 64×64 `ICO` | [doutupk.com](https://www.doutupk.com/) | [🔗 直链](https://o-ocn.github.io/icons/icons/pkdoutu.ico) | [⚡ CDN](https://cdn.jsdelivr.net/gh/o-ocn/icons@main/icons/pkdoutu.ico) | 斗图啦官方标志 |
+| <img src="icons/default-fallback.png" width="40" height="40" alt="默认备用" /> | **默认备用图标** | 1024×1024 `PNG` | [icons](https://o-ocn.github.io/icons/) | [🔗 直链](https://o-ocn.github.io/icons/icons/default-fallback.png) | [⚡ CDN](https://cdn.jsdelivr.net/gh/o-ocn/icons@main/icons/default-fallback.png) | 自动获取失败时的默认备用可爱猫猫图标（略——！！） |
 
 ---
 
 ## 🛠️ 如何添加新图标
 
-1. 将图标文件（`.png` / `.svg` / `.webp`）放入 `icons/` 目录；
+1. 将图标文件放入 `icons/` 目录；
 2. 在 `data/icons.json` 中添加该图标的条目元数据；
 3. 更新 `README.md` 表格；
 4. 运行 `git commit` 并 `git push` 到 `main` 分支，GitHub Pages 将在 30 秒内自动生效！

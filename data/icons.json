@@ -141,5 +141,104 @@
     "category": "影音 / 社交",
     "notes": "抖音官方音符矢量标志",
     "updatedAt": "2026-09-26"
+  },
+  {
+    "id": "tieba",
+    "name": "百度贴吧",
+    "filename": "tieba.svg",
+    "resolution": "Vector",
+    "format": "SVG",
+    "site": "https://tieba.baidu.com/",
+    "category": "论坛 / 社交",
+    "notes": "百度贴吧官方矢量标志",
+    "updatedAt": "2026-09-26"
+  },
+  {
+    "id": "qianmo",
+    "name": "阡陌居",
+    "filename": "qianmo.png",
+    "resolution": "128x128",
+    "format": "PNG",
+    "site": "http://www.1000qm.vip/",
+    "category": "论坛",
+    "notes": "阡陌居论坛专属可爱猫猫头像",
+    "updatedAt": "2026-09-26"
+  },
+  {
+    "id": "soushuba",
+    "name": "搜书吧",
+    "filename": "soushuba.png",
+    "resolution": "128x128",
+    "format": "PNG",
+    "site": "http://2303--1416.0314.world.chickengotogo.com:1223/o/?sigin=vpm72416787818706x8xfV38717172",
+    "category": "论坛",
+    "notes": "搜书吧专属可爱小猫头像（略——！！）",
+    "updatedAt": "2026-09-26"
+  },
+  {
+    "id": "netease",
+    "name": "网易邮箱",
+    "filename": "netease.png",
+    "resolution": "128x128",
+    "format": "PNG",
+    "site": "https://email.163.com/",
+    "category": "邮箱",
+    "notes": "网易 163 邮箱官方标志",
+    "updatedAt": "2026-09-26"
+  },
+  {
+    "id": "threedm",
+    "name": "3DM论坛",
+    "filename": "threedm.png",
+    "resolution": "128x128",
+    "format": "PNG",
+    "site": "https://bbs.3dmgame.com/forum.php",
+    "category": "论坛 / 游戏",
+    "notes": "3DM 游戏论坛官方标志",
+    "updatedAt": "2026-09-26"
+  },
+  {
+    "id": "fabiaoqing",
+    "name": "发表情",
+    "filename": "fabiaoqing.png",
+    "resolution": "128x128",
+    "format": "PNG",
+    "site": "https://fabiaoqing.com/",
+    "category": "表情",
+    "notes": "发表情网官方标志",
+    "updatedAt": "2026-09-26"
+  },
+  {
+    "id": "weshine",
+    "name": "闪萌",
+    "filename": "weshine.png",
+    "resolution": "128x128",
+    "format": "PNG",
+    "site": "https://www.weshineapp.com/",
+    "category": "表情",
+    "notes": "闪萌表情官方闪电标志",
+    "updatedAt": "2026-09-26"
+  },
+  {
+    "id": "pkdoutu",
+    "name": "斗图啦",
+    "filename": "pkdoutu.ico",
+    "resolution": "64x64",
+    "format": "ICO",
+    "site": "https://www.doutupk.com/",
+    "category": "表情",
+    "notes": "斗图啦官方标志",
+    "updatedAt": "2026-09-26"
+  },
+  {
+    "id": "default-fallback",
+    "name": "默认备用图标",
+    "filename": "default-fallback.png",
+    "resolution": "1024x1024",
+    "format": "PNG",
+    "site": "https://o-ocn.github.io/icons/",
+    "category": "系统 / 占位",
+    "notes": "自动获取失败时的默认备用可爱猫猫图标（略——！！）",
+    "updatedAt": "2026-09-26"
   }
 ]
