@@ -9,5 +9,137 @@
     "category": "VPS / 云计算",
     "notes": "VMISS 官方标志 Logo",
     "updatedAt": "2026-09-26"
+  },
+  {
+    "id": "chatgpt",
+    "name": "ChatGPT",
+    "filename": "chatgpt.svg",
+    "resolution": "Vector",
+    "format": "SVG",
+    "site": "https://chatgpt.com/",
+    "category": "AI",
+    "notes": "OpenAI ChatGPT 官方矢量标志",
+    "updatedAt": "2026-09-26"
+  },
+  {
+    "id": "deepseek",
+    "name": "DeepSeek",
+    "filename": "deepseek.svg",
+    "resolution": "Vector",
+    "format": "SVG",
+    "site": "https://chat.deepseek.com/",
+    "category": "AI",
+    "notes": "DeepSeek 深度求索官方蓝鲸标志",
+    "updatedAt": "2026-09-26"
+  },
+  {
+    "id": "grok",
+    "name": "Grok",
+    "filename": "grok.svg",
+    "resolution": "Vector",
+    "format": "SVG",
+    "site": "https://grok.com/",
+    "category": "AI",
+    "notes": "xAI Grok 官方矢量标志",
+    "updatedAt": "2026-09-26"
+  },
+  {
+    "id": "onedrive",
+    "name": "OneDrive",
+    "filename": "onedrive.svg",
+    "resolution": "Vector",
+    "format": "SVG",
+    "site": "https://onedrive.live.com/",
+    "category": "网盘",
+    "notes": "Microsoft OneDrive 官方最新云朵图标",
+    "updatedAt": "2026-09-26"
+  },
+  {
+    "id": "googledrive",
+    "name": "Google Drive",
+    "filename": "googledrive.svg",
+    "resolution": "Vector",
+    "format": "SVG",
+    "site": "https://drive.google.com/",
+    "category": "网盘",
+    "notes": "Google Drive 官方彩色三角形标志",
+    "updatedAt": "2026-09-26"
+  },
+  {
+    "id": "x",
+    "name": "X",
+    "filename": "x.svg",
+    "resolution": "Vector",
+    "format": "SVG",
+    "site": "https://x.com/",
+    "category": "社交",
+    "notes": "X (原 Twitter) 官方矢量标志",
+    "updatedAt": "2026-09-26"
+  },
+  {
+    "id": "instagram",
+    "name": "Instagram",
+    "filename": "instagram.svg",
+    "resolution": "Vector",
+    "format": "SVG",
+    "site": "https://www.instagram.com/",
+    "category": "社交",
+    "notes": "Instagram 官方渐变相机图标",
+    "updatedAt": "2026-09-26"
+  },
+  {
+    "id": "reddit",
+    "name": "Reddit",
+    "filename": "reddit.svg",
+    "resolution": "Vector",
+    "format": "SVG",
+    "site": "https://www.reddit.com/",
+    "category": "社交",
+    "notes": "Reddit 官方橙色 Snoo 标志",
+    "updatedAt": "2026-09-26"
+  },
+  {
+    "id": "twitch",
+    "name": "Twitch",
+    "filename": "twitch.svg",
+    "resolution": "Vector",
+    "format": "SVG",
+    "site": "https://www.twitch.tv/",
+    "category": "影音",
+    "notes": "Twitch 官方紫色对话框标志",
+    "updatedAt": "2026-09-26"
+  },
+  {
+    "id": "localsend",
+    "name": "LocalSend",
+    "filename": "localsend.png",
+    "resolution": "512x512",
+    "format": "PNG",
+    "site": "https://web.localsend.org/zh-CN",
+    "category": "工具",
+    "notes": "LocalSend 官方 512x512 高清标志",
+    "updatedAt": "2026-09-26"
+  },
+  {
+    "id": "oopz",
+    "name": "Oopz",
+    "filename": "oopz.png",
+    "resolution": "128x128",
+    "format": "PNG",
+    "site": "https://web.oopz.cn/",
+    "category": "游戏 / 语音",
+    "notes": "Oopz 官方语音开黑标志",
+    "updatedAt": "2026-09-26"
+  },
+  {
+    "id": "douyin",
+    "name": "抖音",
+    "filename": "douyin.svg",
+    "resolution": "Vector",
+    "format": "SVG",
+    "site": "https://www.douyin.com/",
+    "category": "影音 / 社交",
+    "notes": "抖音官方音符矢量标志",
+    "updatedAt": "2026-09-26"
   }
 ]
