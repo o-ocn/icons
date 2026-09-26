@@ -145,12 +145,12 @@
   {
     "id": "tieba",
     "name": "百度贴吧",
-    "filename": "tieba.svg",
-    "resolution": "Vector",
-    "format": "SVG",
+    "filename": "tieba.png",
+    "resolution": "256x256",
+    "format": "PNG",
     "site": "https://tieba.baidu.com/",
     "category": "论坛 / 社交",
-    "notes": "百度贴吧官方矢量标志",
+    "notes": "百度贴吧官方经典「贴」字标志",
     "updatedAt": "2026-09-26"
   },
   {
