@@ -1,0 +1,13 @@
+[
+  {
+    "id": "vmiss",
+    "name": "VMISS",
+    "filename": "vmiss.png",
+    "resolution": "512x512",
+    "format": "PNG",
+    "site": "https://app.vmiss.com/",
+    "category": "VPS / 云计算",
+    "notes": "VMISS 官方标志 Logo",
+    "updatedAt": "2026-09-26"
+  }
+]

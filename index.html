@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Icons 图标图库 - 个人精选高清网站图标</title>
+  <link rel="icon" href="icons/vmiss.png" type="image/png">
+  <style>
+    :root {
+      --bg: #0c0d12;
+      --card-bg: rgba(26, 29, 38, 0.7);
+      --card-border: rgba(255, 255, 255, 0.08);
+      --text: #f0f2f5;
+      --text-muted: #8b949e;
+      --accent: #58a6ff;
+      --accent-glow: rgba(88, 166, 255, 0.15);
+      --tag-bg: rgba(255, 255, 255, 0.06);
+      --btn-bg: rgba(255, 255, 255, 0.06);
+      --btn-hover: rgba(255, 255, 255, 0.12);
+      --checkerboard-1: #1e222d;
+      --checkerboard-2: #161820;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: var(--bg);
+      background-image: 
+        radial-gradient(circle at 15% 15%, rgba(88, 166, 255, 0.08) 0%, transparent 40%),
+        radial-gradient(circle at 85% 85%, rgba(139, 92, 246, 0.08) 0%, transparent 40%);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    header {
+      padding: 48px 24px 32px;
+      text-align: center;
+      max-width: 900px;
+      margin: 0 auto;
+      width: 100%;
+    }
+
+    .title {
+      font-size: 2.2rem;
+      font-weight: 700;
+      letter-spacing: -0.5px;
+      margin-bottom: 12px;
+      background: linear-gradient(135deg, #ffffff 30%, #8b949e 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .subtitle {
+      color: var(--text-muted);
+      font-size: 1rem;
+      line-height: 1.6;
+      margin-bottom: 28px;
+    }
+
+    .search-bar-wrap {
+      max-width: 520px;
+      margin: 0 auto 36px;
+      position: relative;
+    }
+
+    .search-input {
+      width: 100%;
+      padding: 14px 20px 14px 44px;
+      border-radius: 999px;
+      border: 1px solid var(--card-border);
+      background: rgba(255, 255, 255, 0.04);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      color: var(--text);
+      font-size: 0.95rem;
+      outline: none;
+      transition: all 0.25s ease;
+    }
+
+    .search-input:focus {
+      border-color: var(--accent);
+      background: rgba(255, 255, 255, 0.08);
+      box-shadow: 0 0 0 3px var(--accent-glow);
+    }
+
+    .search-icon {
+      position: absolute;
+      left: 16px;
+      top: 50%;
+      transform: translateY(-50%);
+      color: var(--text-muted);
+      pointer-events: none;
+    }
+
+    main {
+      flex: 1;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 24px 60px;
+      width: 100%;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 16px;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-3px);
+      border-color: rgba(255, 255, 255, 0.2);
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.35);
+    }
+
+    .preview-box {
+      width: 100%;
+      height: 140px;
+      border-radius: 12px;
+      background-color: var(--checkerboard-1);
+      background-image: 
+        linear-gradient(45deg, var(--checkerboard-2) 25%, transparent 25%), 
+        linear-gradient(-45deg, var(--checkerboard-2) 25%, transparent 25%), 
+        linear-gradient(45deg, transparent 75%, var(--checkerboard-2) 75%), 
+        linear-gradient(-45deg, transparent 75%, var(--checkerboard-2) 75%);
+      background-size: 16px 16px;
+      background-position: 0 0, 0 8px, 8px -8px, -8px 0px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 16px;
+      border: 1px solid rgba(255, 255, 255, 0.05);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .preview-box img {
+      max-width: 90px;
+      max-height: 90px;
+      object-fit: contain;
+      filter: drop-shadow(0 4px 10px rgba(0, 0, 0, 0.4));
+      transition: transform 0.25s ease;
+    }
+
+    .card:hover .preview-box img {
+      transform: scale(1.08);
+    }
+
+    .card-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 8px;
+    }
+
+    .card-title {
+      font-size: 1.15rem;
+      font-weight: 600;
+      color: #fff;
+    }
+
+    .card-tags {
+      display: flex;
+      gap: 6px;
+    }
+
+    .tag {
+      font-size: 0.72rem;
+      padding: 3px 8px;
+      border-radius: 6px;
+      background: var(--tag-bg);
+      color: var(--accent);
+      border: 1px solid rgba(88, 166, 255, 0.2);
+    }
+
+    .card-meta {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      margin-bottom: 12px;
+      line-height: 1.5;
+    }
+
+    .card-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      font-size: 0.82rem;
+      color: var(--accent);
+      text-decoration: none;
+      margin-bottom: 16px;
+      word-break: break-all;
+    }
+
+    .card-link:hover {
+      text-decoration: underline;
+    }
+
+    .btn-group {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 8px;
+      margin-top: auto;
+    }
+
+    .btn {
+      padding: 8px 12px;
+      border-radius: 8px;
+      font-size: 0.8rem;
+      font-weight: 500;
+      border: 1px solid var(--card-border);
+      background: var(--btn-bg);
+      color: var(--text);
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 5px;
+      transition: all 0.2s ease;
+    }
+
+    .btn:hover {
+      background: var(--btn-hover);
+      border-color: rgba(255, 255, 255, 0.25);
+    }
+
+    .btn:active {
+      transform: scale(0.97);
+    }
+
+    .toast {
+      position: fixed;
+      bottom: 24px;
+      left: 50%;
+      transform: translateX(-50%) translateY(100px);
+      opacity: 0;
+      background: rgba(30, 34, 45, 0.95);
+      border: 1px solid rgba(88, 166, 255, 0.3);
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+      padding: 10px 20px;
+      border-radius: 999px;
+      font-size: 0.9rem;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+      z-index: 999;
+      pointer-events: none;
+    }
+
+    .toast.show {
+      transform: translateX(-50%) translateY(0);
+      opacity: 1;
+    }
+
+    footer {
+      text-align: center;
+      padding: 24px;
+      color: var(--text-muted);
+      font-size: 0.85rem;
+      border-top: 1px solid var(--card-border);
+    }
+
+    footer a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1 class="title">Web Icons Gallery</h1>
+    <p class="subtitle">个人收集与整理的高清网站图标库，基于 GitHub Pages & CDN 全球直链加速</p>
+    <div class="search-bar-wrap">
+      <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <circle cx="11" cy="11" r="8"></circle>
+        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+      </svg>
+      <input type="text" id="searchInput" class="search-input" placeholder="搜索图标名称、分类、备注...">
+    </div>
+  </header>
+
+  <main>
+    <div class="grid" id="iconGrid"></div>
+  </main>
+
+  <footer>
+    <p>托管于 <a href="https://github.com/o-ocn/icons" target="_blank" rel="noopener">GitHub (o-ocn/icons)</a> · 专为快捷方式与个人主页定制</p>
+  </footer>
+
+  <div class="toast" id="toast">已复制链接到剪贴板</div>
+
+  <script>
+    const DEFAULT_ICONS = [
+      {
+        "id": "vmiss",
+        "name": "VMISS",
+        "filename": "vmiss.png",
+        "resolution": "512x512",
+        "format": "PNG",
+        "site": "https://app.vmiss.com/",
+        "category": "VPS / 云计算",
+        "notes": "VMISS 官方标志 Logo",
+        "updatedAt": "2026-09-26"
+      }
+    ];
+
+    let iconData = DEFAULT_ICONS;
+    const grid = document.getElementById("iconGrid");
+    const searchInput = document.getElementById("searchInput");
+    const toast = document.getElementById("toast");
+    let toastTimer = null;
+
+    function showToast(msg) {
+      toast.textContent = msg;
+      toast.classList.add("show");
+      clearTimeout(toastTimer);
+      toastTimer = setTimeout(() => {
+        toast.classList.remove("show");
+      }, 2200);
+    }
+
+    function copyToClipboard(text, label) {
+      navigator.clipboard.writeText(text).then(() => {
+        showToast(`已复制 ${label}`);
+      }).catch(() => {
+        const input = document.createElement("input");
+        input.value = text;
+        document.body.appendChild(input);
+        input.select();
+        document.execCommand("copy");
+        document.body.removeChild(input);
+        showToast(`已复制 ${label}`);
+      });
+    }
+
+    function renderCards(list) {
+      grid.innerHTML = "";
+      if (list.length === 0) {
+        grid.innerHTML = `<div style="grid-column: 1/-1; text-align: center; color: var(--text-muted); padding: 40px;">没有找到匹配的图标</div>`;
+        return;
+      }
+
+      list.forEach(item => {
+        const pagesUrl = `https://o-ocn.github.io/icons/icons/${item.filename}`;
+        const cdnUrl = `https://cdn.jsdelivr.net/gh/o-ocn/icons@main/icons/${item.filename}`;
+        const localImgPath = `icons/${item.filename}`;
+
+        const card = document.createElement("div");
+        card.className = "card";
+        card.innerHTML = `
+          <div class="preview-box">
+            <img src="${localImgPath}" alt="${item.name}" loading="lazy">
+          </div>
+          <div class="card-header">
+            <div class="card-title">${item.name}</div>
+            <div class="card-tags">
+              <span class="tag">${item.resolution}</span>
+              <span class="tag">${item.format}</span>
+            </div>
+          </div>
+          <div class="card-meta">${item.notes || ""}</div>
+          <a class="card-link" href="${item.site}" target="_blank" rel="noopener">
+            🌐 ${item.site.replace(/^https?:\/\//, "").replace(/\/$/, "")}
+          </a>
+          <div class="btn-group">
+            <button class="btn btn-pages" data-url="${pagesUrl}">🔗 复制直链</button>
+            <button class="btn btn-cdn" data-url="${cdnUrl}">⚡ 复制 CDN</button>
+          </div>
+        `;
+
+        card.querySelector(".btn-pages").addEventListener("click", () => {
+          copyToClipboard(pagesUrl, "GitHub Pages 直链");
+        });
+
+        card.querySelector(".btn-cdn").addEventListener("click", () => {
+          copyToClipboard(cdnUrl, "jsDelivr CDN 直链 (国内高速)");
+        });
+
+        grid.appendChild(card);
+      });
+    }
+
+    // Try fetching live icons.json
+    fetch("data/icons.json")
+      .then(res => res.json())
+      .then(data => {
+        if (Array.isArray(data) && data.length > 0) {
+          iconData = data;
+          renderCards(iconData);
+        }
+      })
+      .catch(() => {
+        renderCards(iconData);
+      });
+
+    searchInput.addEventListener("input", (e) => {
+      const q = e.target.value.toLowerCase().trim();
+      if (!q) {
+        renderCards(iconData);
+        return;
+      }
+      const filtered = iconData.filter(i => 
+        i.name.toLowerCase().includes(q) ||
+        (i.category && i.category.toLowerCase().includes(q)) ||
+        (i.notes && i.notes.toLowerCase().includes(q)) ||
+        i.site.toLowerCase().includes(q)
+      );
+      renderCards(filtered);
+    });
+
+    renderCards(iconData);
+  </script>
+</body>
+</html>
