@@ -240,5 +240,38 @@
     "category": "系统 / 占位",
     "notes": "自动获取失败时的默认备用可爱猫猫图标（略——！！）",
     "updatedAt": "2026-09-26"
+  },
+  {
+    "id": "douyin-laike",
+    "name": "抖音来客",
+    "filename": "douyin-laike.png",
+    "resolution": "512x512",
+    "format": "PNG",
+    "site": "https://life.douyin.com/",
+    "category": "电商 / 商务",
+    "notes": "抖音来客（生活服务商家端）官方独立专属标志（屋顶与微笑）",
+    "updatedAt": "2026-09-29"
+  },
+  {
+    "id": "douyin-livepro",
+    "name": "抖音直播专业版",
+    "filename": "douyin-livepro.png",
+    "resolution": "512x512",
+    "format": "PNG",
+    "site": "https://eos.douyin.com/",
+    "category": "直播 / 运营",
+    "notes": "抖音直播专业版 / 直播伴侣官方专属图标（黑底立体音符与粉红声波环）",
+    "updatedAt": "2026-09-29"
+  },
+  {
+    "id": "localads",
+    "name": "巨量本地推",
+    "filename": "localads.png",
+    "resolution": "512x512",
+    "format": "PNG",
+    "site": "https://localads.chengzijianzhan.cn/",
+    "category": "营销 / 广告",
+    "notes": "巨量本地推官方独立专属品牌标识（推流箭头与定位地标）",
+    "updatedAt": "2026-09-29"
   }
 ]
