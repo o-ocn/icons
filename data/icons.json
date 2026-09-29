@@ -273,5 +273,27 @@
     "category": "营销 / 广告",
     "notes": "巨量本地推官方独立专属品牌标识（推流箭头与定位地标）",
     "updatedAt": "2026-09-29"
+  },
+  {
+    "id": "outlook",
+    "name": "Outlook",
+    "filename": "outlook.svg",
+    "resolution": "Vector",
+    "format": "SVG",
+    "site": "https://outlook.live.com/",
+    "category": "邮箱",
+    "notes": "Microsoft Outlook 官方 Fluent 矢量标志（抠图透明背景）",
+    "updatedAt": "2026-09-30"
+  },
+  {
+    "id": "gmail",
+    "name": "Gmail",
+    "filename": "gmail.svg",
+    "resolution": "Vector",
+    "format": "SVG",
+    "site": "https://gmail.com/",
+    "category": "邮箱",
+    "notes": "Google Gmail 官方多彩 M 矢量标志（抠图透明背景）",
+    "updatedAt": "2026-09-30"
   }
 ]
