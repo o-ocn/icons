@@ -53,6 +53,7 @@
 | <img src="icons/localads.png" width="40" height="40" alt="巨量本地推" /> | **巨量本地推** | 512×512 `PNG` | [localads.chengzijianzhan.cn](https://localads.chengzijianzhan.cn/) | [🔗 直链](https://o-ocn.github.io/icons/icons/localads.png) | [⚡ CDN](https://cdn.jsdelivr.net/gh/o-ocn/icons@main/icons/localads.png) | 巨量本地推官方独立专属品牌标识 |
 | <img src="icons/outlook.svg" width="40" height="40" alt="Outlook" /> | **Outlook** | Vector `SVG` | [outlook.live.com](https://outlook.live.com/) | [🔗 直链](https://o-ocn.github.io/icons/icons/outlook.svg) | [⚡ CDN](https://cdn.jsdelivr.net/gh/o-ocn/icons@main/icons/outlook.svg) | Microsoft Outlook 官方 Fluent 矢量标志（抠图透明背景） |
 | <img src="icons/gmail.svg" width="40" height="40" alt="Gmail" /> | **Gmail** | Vector `SVG` | [gmail.com](https://gmail.com/) | [🔗 直链](https://o-ocn.github.io/icons/icons/gmail.svg) | [⚡ CDN](https://cdn.jsdelivr.net/gh/o-ocn/icons@main/icons/gmail.svg) | Google Gmail 官方多彩 M 矢量标志（抠图透明背景） |
+| <img src="icons/gemini.svg" width="40" height="40" alt="Gemini" /> | **Gemini** | Vector `SVG` | [gemini.google.com](https://gemini.google.com/) | [🔗 直链](https://o-ocn.github.io/icons/icons/gemini.svg) | [⚡ CDN](https://cdn.jsdelivr.net/gh/o-ocn/icons@main/icons/gemini.svg) | Google Gemini 官方彩色星芒矢量标志 |
 
 ---
 

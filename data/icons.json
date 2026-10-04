@@ -295,5 +295,16 @@
     "category": "邮箱",
     "notes": "Google Gmail 官方多彩 M 矢量标志（抠图透明背景）",
     "updatedAt": "2026-09-30"
+  },
+  {
+    "id": "gemini",
+    "name": "Gemini",
+    "filename": "gemini.svg",
+    "resolution": "Vector",
+    "format": "SVG",
+    "site": "https://gemini.google.com/",
+    "category": "AI",
+    "notes": "Google Gemini 官方彩色星芒矢量标志",
+    "updatedAt": "2026-10-04"
   }
 ]
