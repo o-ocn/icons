@@ -46,13 +46,13 @@
   {
     "id": "onedrive",
     "name": "OneDrive",
-    "filename": "onedrive.svg",
-    "resolution": "Vector",
-    "format": "SVG",
+    "filename": "onedrive.png",
+    "resolution": "512x512",
+    "format": "PNG",
     "site": "https://onedrive.live.com/",
     "category": "网盘",
-    "notes": "Microsoft OneDrive 官方最新云朵图标",
-    "updatedAt": "2026-09-26"
+    "notes": "Microsoft OneDrive 官方 App Store 图标",
+    "updatedAt": "2026-10-08"
   },
   {
     "id": "googledrive",
@@ -68,46 +68,46 @@
   {
     "id": "x",
     "name": "X",
-    "filename": "x.svg",
-    "resolution": "Vector",
-    "format": "SVG",
+    "filename": "x.png",
+    "resolution": "512x512",
+    "format": "PNG",
     "site": "https://x.com/",
     "category": "社交",
-    "notes": "X (原 Twitter) 官方矢量标志",
-    "updatedAt": "2026-09-26"
+    "notes": "X (Twitter) 官方 App Store 图标",
+    "updatedAt": "2026-10-08"
   },
   {
     "id": "instagram",
     "name": "Instagram",
-    "filename": "instagram.svg",
-    "resolution": "Vector",
-    "format": "SVG",
+    "filename": "instagram.png",
+    "resolution": "512x512",
+    "format": "PNG",
     "site": "https://www.instagram.com/",
     "category": "社交",
-    "notes": "Instagram 官方渐变相机图标",
-    "updatedAt": "2026-09-26"
+    "notes": "Instagram 官方 App Store 图标",
+    "updatedAt": "2026-10-08"
   },
   {
     "id": "reddit",
     "name": "Reddit",
-    "filename": "reddit.svg",
-    "resolution": "Vector",
-    "format": "SVG",
+    "filename": "reddit.png",
+    "resolution": "512x512",
+    "format": "PNG",
     "site": "https://www.reddit.com/",
     "category": "社交",
-    "notes": "Reddit 官方橙色 Snoo 标志",
-    "updatedAt": "2026-09-26"
+    "notes": "Reddit 官方 App Store 图标",
+    "updatedAt": "2026-10-08"
   },
   {
     "id": "twitch",
     "name": "Twitch",
-    "filename": "twitch.svg",
-    "resolution": "Vector",
-    "format": "SVG",
+    "filename": "twitch.png",
+    "resolution": "512x512",
+    "format": "PNG",
     "site": "https://www.twitch.tv/",
     "category": "影音",
-    "notes": "Twitch 官方紫色对话框标志",
-    "updatedAt": "2026-09-26"
+    "notes": "Twitch 官方 App Store 图标",
+    "updatedAt": "2026-10-08"
   },
   {
     "id": "localsend",
@@ -134,24 +134,24 @@
   {
     "id": "douyin",
     "name": "抖音",
-    "filename": "douyin.svg",
-    "resolution": "Vector",
-    "format": "SVG",
+    "filename": "douyin.png",
+    "resolution": "512x512",
+    "format": "PNG",
     "site": "https://www.douyin.com/",
     "category": "影音 / 社交",
-    "notes": "抖音官方音符矢量标志",
-    "updatedAt": "2026-09-26"
+    "notes": "抖音 官方 App Store 图标",
+    "updatedAt": "2026-10-08"
   },
   {
     "id": "tieba",
     "name": "百度贴吧",
     "filename": "tieba.png",
-    "resolution": "256x256",
+    "resolution": "512x512",
     "format": "PNG",
     "site": "https://tieba.baidu.com/",
     "category": "论坛 / 社交",
-    "notes": "百度贴吧官方经典「贴」字标志",
-    "updatedAt": "2026-09-26"
+    "notes": "百度贴吧 官方 App Store 图标",
+    "updatedAt": "2026-10-08"
   },
   {
     "id": "qianmo",
@@ -179,12 +179,12 @@
     "id": "netease",
     "name": "网易邮箱",
     "filename": "netease.png",
-    "resolution": "128x128",
+    "resolution": "512x512",
     "format": "PNG",
     "site": "https://email.163.com/",
     "category": "邮箱",
-    "notes": "网易 163 邮箱官方标志",
-    "updatedAt": "2026-09-26"
+    "notes": "网易邮箱大师 官方 App Store 图标",
+    "updatedAt": "2026-10-08"
   },
   {
     "id": "threedm",
@@ -277,24 +277,24 @@
   {
     "id": "outlook",
     "name": "Outlook",
-    "filename": "outlook.svg",
-    "resolution": "Vector",
-    "format": "SVG",
+    "filename": "outlook.png",
+    "resolution": "512x512",
+    "format": "PNG",
     "site": "https://outlook.live.com/",
     "category": "邮箱",
-    "notes": "Microsoft Outlook 官方 Fluent 矢量标志（抠图透明背景）",
-    "updatedAt": "2026-09-30"
+    "notes": "Microsoft Outlook 官方 App Store 图标",
+    "updatedAt": "2026-10-08"
   },
   {
     "id": "gmail",
     "name": "Gmail",
-    "filename": "gmail.svg",
-    "resolution": "Vector",
-    "format": "SVG",
+    "filename": "gmail.png",
+    "resolution": "512x512",
+    "format": "PNG",
     "site": "https://gmail.com/",
     "category": "邮箱",
-    "notes": "Google Gmail 官方多彩 M 矢量标志（抠图透明背景）",
-    "updatedAt": "2026-09-30"
+    "notes": "Google Gmail 官方 App Store 图标",
+    "updatedAt": "2026-10-08"
   },
   {
     "id": "gemini",
@@ -316,6 +316,270 @@
     "site": "https://claude.ai/",
     "category": "AI",
     "notes": "Anthropic Claude 官方 App Store 图标（赤陶圆角）",
+    "updatedAt": "2026-10-08"
+  },
+  {
+    "id": "qqmail",
+    "name": "QQ邮箱",
+    "filename": "qqmail.png",
+    "resolution": "512x512",
+    "format": "PNG",
+    "site": "https://mail.qq.com/",
+    "category": "邮箱",
+    "notes": "腾讯 QQ邮箱 官方 App Store 图标",
+    "updatedAt": "2026-10-08"
+  },
+  {
+    "id": "xiaohongshu",
+    "name": "小红书",
+    "filename": "xiaohongshu.png",
+    "resolution": "512x512",
+    "format": "PNG",
+    "site": "https://www.xiaohongshu.com/",
+    "category": "社交",
+    "notes": "小红书 官方 App Store 图标",
+    "updatedAt": "2026-10-08"
+  },
+  {
+    "id": "zhihu",
+    "name": "知乎",
+    "filename": "zhihu.png",
+    "resolution": "512x512",
+    "format": "PNG",
+    "site": "https://www.zhihu.com/",
+    "category": "社交",
+    "notes": "知乎 官方 App Store 图标",
+    "updatedAt": "2026-10-08"
+  },
+  {
+    "id": "weibo",
+    "name": "微博",
+    "filename": "weibo.png",
+    "resolution": "512x512",
+    "format": "PNG",
+    "site": "https://weibo.com/",
+    "category": "社交",
+    "notes": "新浪微博 官方 App Store 图标",
+    "updatedAt": "2026-10-08"
+  },
+  {
+    "id": "douban",
+    "name": "豆瓣",
+    "filename": "douban.png",
+    "resolution": "512x512",
+    "format": "PNG",
+    "site": "https://www.douban.com/",
+    "category": "社交",
+    "notes": "豆瓣 官方 App Store 图标",
+    "updatedAt": "2026-10-08"
+  },
+  {
+    "id": "discord",
+    "name": "Discord",
+    "filename": "discord.png",
+    "resolution": "512x512",
+    "format": "PNG",
+    "site": "https://discord.com/",
+    "category": "社交 / 游戏",
+    "notes": "Discord 官方 App Store 图标",
+    "updatedAt": "2026-10-08"
+  },
+  {
+    "id": "bilibili",
+    "name": "哔哩哔哩",
+    "filename": "bilibili.png",
+    "resolution": "512x512",
+    "format": "PNG",
+    "site": "https://www.bilibili.com/",
+    "category": "影音",
+    "notes": "哔哩哔哩 官方 App Store 图标",
+    "updatedAt": "2026-10-08"
+  },
+  {
+    "id": "youtube",
+    "name": "YouTube",
+    "filename": "youtube.png",
+    "resolution": "512x512",
+    "format": "PNG",
+    "site": "https://www.youtube.com/",
+    "category": "影音",
+    "notes": "YouTube 官方 App Store 图标",
+    "updatedAt": "2026-10-08"
+  },
+  {
+    "id": "baidupan",
+    "name": "百度网盘",
+    "filename": "baidupan.png",
+    "resolution": "512x512",
+    "format": "PNG",
+    "site": "https://pan.baidu.com/",
+    "category": "网盘",
+    "notes": "百度网盘 官方 App Store 图标",
+    "updatedAt": "2026-10-08"
+  },
+  {
+    "id": "aliyun",
+    "name": "阿里云盘",
+    "filename": "aliyun.png",
+    "resolution": "512x512",
+    "format": "PNG",
+    "site": "https://www.alipan.com/",
+    "category": "网盘",
+    "notes": "阿里云盘 官方 App Store 图标",
+    "updatedAt": "2026-10-08"
+  },
+  {
+    "id": "quark",
+    "name": "夸克网盘",
+    "filename": "quark.png",
+    "resolution": "512x512",
+    "format": "PNG",
+    "site": "https://pan.quark.cn/",
+    "category": "网盘",
+    "notes": "夸克 官方 App Store 图标",
+    "updatedAt": "2026-10-08"
+  },
+  {
+    "id": "gdrive",
+    "name": "Google Drive",
+    "filename": "gdrive.png",
+    "resolution": "512x512",
+    "format": "PNG",
+    "site": "https://drive.google.com/",
+    "category": "网盘",
+    "notes": "Google Drive 官方 App Store 图标",
+    "updatedAt": "2026-10-08"
+  },
+  {
+    "id": "pikpak",
+    "name": "PikPak",
+    "filename": "pikpak.png",
+    "resolution": "512x512",
+    "format": "PNG",
+    "site": "https://mypikpak.com/",
+    "category": "网盘",
+    "notes": "PikPak 官方 App Store 图标",
+    "updatedAt": "2026-10-08"
+  },
+  {
+    "id": "taobao",
+    "name": "淘宝",
+    "filename": "taobao.png",
+    "resolution": "512x512",
+    "format": "PNG",
+    "site": "https://www.taobao.com/",
+    "category": "购物",
+    "notes": "手机淘宝 官方 App Store 图标",
+    "updatedAt": "2026-10-08"
+  },
+  {
+    "id": "jd",
+    "name": "京东",
+    "filename": "jd.png",
+    "resolution": "512x512",
+    "format": "PNG",
+    "site": "https://www.jd.com/",
+    "category": "购物",
+    "notes": "京东 官方 App Store 图标",
+    "updatedAt": "2026-10-08"
+  },
+  {
+    "id": "smzdm",
+    "name": "什么值得买",
+    "filename": "smzdm.png",
+    "resolution": "512x512",
+    "format": "PNG",
+    "site": "https://www.smzdm.com/",
+    "category": "购物",
+    "notes": "什么值得买 官方 App Store 图标",
+    "updatedAt": "2026-10-08"
+  },
+  {
+    "id": "googleTranslate",
+    "name": "Google翻译",
+    "filename": "googleTranslate.png",
+    "resolution": "512x512",
+    "format": "PNG",
+    "site": "https://translate.google.com/",
+    "category": "工具",
+    "notes": "Google 翻译 官方 App Store 图标",
+    "updatedAt": "2026-10-08"
+  },
+  {
+    "id": "deepl",
+    "name": "DeepL",
+    "filename": "deepl.png",
+    "resolution": "512x512",
+    "format": "PNG",
+    "site": "https://www.deepl.com/",
+    "category": "工具",
+    "notes": "DeepL 官方 App Store 图标",
+    "updatedAt": "2026-10-08"
+  },
+  {
+    "id": "speedtest",
+    "name": "Speedtest",
+    "filename": "speedtest.png",
+    "resolution": "512x512",
+    "format": "PNG",
+    "site": "https://www.speedtest.net/",
+    "category": "工具",
+    "notes": "Speedtest by Ookla 官方 App Store 图标",
+    "updatedAt": "2026-10-08"
+  },
+  {
+    "id": "notion",
+    "name": "Notion",
+    "filename": "notion.png",
+    "resolution": "512x512",
+    "format": "PNG",
+    "site": "https://www.notion.so/",
+    "category": "工具",
+    "notes": "Notion 官方 App Store 图标",
+    "updatedAt": "2026-10-08"
+  },
+  {
+    "id": "github",
+    "name": "GitHub",
+    "filename": "github.png",
+    "resolution": "512x512",
+    "format": "PNG",
+    "site": "https://github.com/",
+    "category": "工具 / 开发者",
+    "notes": "GitHub 官方 App Store 图标",
+    "updatedAt": "2026-10-08"
+  },
+  {
+    "id": "kook",
+    "name": "KOOK",
+    "filename": "kook.png",
+    "resolution": "512x512",
+    "format": "PNG",
+    "site": "https://kookapp.cn/",
+    "category": "游戏 / 语音",
+    "notes": "KOOK (开黑啦) 官方 App Store 图标",
+    "updatedAt": "2026-10-08"
+  },
+  {
+    "id": "xiaoheihe",
+    "name": "小黑盒",
+    "filename": "xiaoheihe.png",
+    "resolution": "512x512",
+    "format": "PNG",
+    "site": "https://www.xiaoheihe.cn/",
+    "category": "游戏 / 社区",
+    "notes": "小黑盒 官方 App Store 图标",
+    "updatedAt": "2026-10-08"
+  },
+  {
+    "id": "opgg",
+    "name": "OP.GG",
+    "filename": "opgg.png",
+    "resolution": "512x512",
+    "format": "PNG",
+    "site": "https://www.op.gg/",
+    "category": "游戏",
+    "notes": "OP.GG 官方 App Store 图标",
     "updatedAt": "2026-10-08"
   }
 ]
