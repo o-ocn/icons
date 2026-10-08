@@ -117,19 +117,19 @@
     "format": "PNG",
     "site": "https://web.localsend.org/zh-CN",
     "category": "工具",
-    "notes": "LocalSend 官方 512x512 高清标志",
-    "updatedAt": "2026-09-26"
+    "notes": "LocalSend 官方 App Store 图标",
+    "updatedAt": "2026-10-08"
   },
   {
     "id": "oopz",
     "name": "Oopz",
     "filename": "oopz.png",
-    "resolution": "128x128",
+    "resolution": "512x512",
     "format": "PNG",
     "site": "https://web.oopz.cn/",
     "category": "游戏 / 语音",
-    "notes": "Oopz 官方语音开黑标志",
-    "updatedAt": "2026-09-26"
+    "notes": "Oopz 官方 App Store 图标",
+    "updatedAt": "2026-10-08"
   },
   {
     "id": "douyin",
@@ -190,12 +190,12 @@
     "id": "threedm",
     "name": "3DM论坛",
     "filename": "threedm.png",
-    "resolution": "128x128",
+    "resolution": "512x512",
     "format": "PNG",
-    "site": "https://bbs.3dmgame.com/forum.php",
-    "category": "论坛 / 游戏",
-    "notes": "3DM 游戏论坛官方标志",
-    "updatedAt": "2026-09-26"
+    "site": "https://bbs.3dmgame.com/",
+    "category": "游戏 / 社区",
+    "notes": "3DM 游戏官方 App Store 图标",
+    "updatedAt": "2026-10-08"
   },
   {
     "id": "fabiaoqing",
@@ -212,12 +212,12 @@
     "id": "weshine",
     "name": "闪萌",
     "filename": "weshine.png",
-    "resolution": "128x128",
+    "resolution": "512x512",
     "format": "PNG",
     "site": "https://www.weshineapp.com/",
-    "category": "表情",
-    "notes": "闪萌表情官方闪电标志",
-    "updatedAt": "2026-09-26"
+    "category": "表情 / 社交",
+    "notes": "闪萌表情官方 App Store 图标",
+    "updatedAt": "2026-10-08"
   },
   {
     "id": "pkdoutu",
@@ -248,9 +248,9 @@
     "resolution": "512x512",
     "format": "PNG",
     "site": "https://life.douyin.com/",
-    "category": "电商 / 商务",
-    "notes": "抖音来客（生活服务商家端）官方独立专属标志（屋顶与微笑）",
-    "updatedAt": "2026-09-29"
+    "category": "运营 / 商家",
+    "notes": "抖音来客（生活服务商家端）官方 App Store 图标",
+    "updatedAt": "2026-10-08"
   },
   {
     "id": "douyin-livepro",
@@ -259,20 +259,20 @@
     "resolution": "512x512",
     "format": "PNG",
     "site": "https://eos.douyin.com/",
-    "category": "直播 / 运营",
-    "notes": "抖音直播专业版 / 直播伴侣官方专属图标（黑底立体音符与粉红声波环）",
-    "updatedAt": "2026-09-29"
+    "category": "运营 / 直播",
+    "notes": "抖音直播伴侣官方 App Store 图标",
+    "updatedAt": "2026-10-08"
   },
   {
     "id": "localads",
-    "name": "巨量本地推",
+    "name": "巨量引擎",
     "filename": "localads.png",
     "resolution": "512x512",
     "format": "PNG",
     "site": "https://localads.chengzijianzhan.cn/",
-    "category": "营销 / 广告",
-    "notes": "巨量本地推官方独立专属品牌标识（推流箭头与定位地标）",
-    "updatedAt": "2026-09-29"
+    "category": "运营 / 营销",
+    "notes": "巨量引擎 / 巨量本地推官方 App Store 图标",
+    "updatedAt": "2026-10-08"
   },
   {
     "id": "outlook",
@@ -580,6 +580,127 @@
     "site": "https://www.op.gg/",
     "category": "游戏",
     "notes": "OP.GG 官方 App Store 图标",
+    "updatedAt": "2026-10-08"
+  },
+  {
+    "id": "kimi",
+    "name": "Kimi",
+    "filename": "kimi.png",
+    "resolution": "512x512",
+    "format": "PNG",
+    "site": "https://kimi.moonshot.cn/",
+    "category": "AI",
+    "notes": "Kimi 智能助手官方 App Store 图标",
+    "updatedAt": "2026-10-08"
+  },
+  {
+    "id": "glm",
+    "name": "智谱清言",
+    "filename": "glm.png",
+    "resolution": "512x512",
+    "format": "PNG",
+    "site": "https://chatglm.cn/",
+    "category": "AI",
+    "notes": "智谱清言官方 App Store 图标",
+    "updatedAt": "2026-10-08"
+  },
+  {
+    "id": "tongyi",
+    "name": "通义千问",
+    "filename": "tongyi.png",
+    "resolution": "512x512",
+    "format": "PNG",
+    "site": "https://tongyi.aliyun.com/",
+    "category": "AI",
+    "notes": "阿里巴巴通义千问 / 千问官方 App Store 图标",
+    "updatedAt": "2026-10-08"
+  },
+  {
+    "id": "doubao",
+    "name": "豆包",
+    "filename": "doubao.png",
+    "resolution": "512x512",
+    "format": "PNG",
+    "site": "https://www.doubao.com/",
+    "category": "AI",
+    "notes": "字节跳动豆包官方 App Store 图标",
+    "updatedAt": "2026-10-08"
+  },
+  {
+    "id": "yuanbao",
+    "name": "腾讯元宝",
+    "filename": "yuanbao.png",
+    "resolution": "512x512",
+    "format": "PNG",
+    "site": "https://yuanbao.tencent.com/",
+    "category": "AI",
+    "notes": "腾讯元宝官方 App Store 图标",
+    "updatedAt": "2026-10-08"
+  },
+  {
+    "id": "xiezuocat",
+    "name": "秘塔写作猫",
+    "filename": "xiezuocat.png",
+    "resolution": "512x512",
+    "format": "PNG",
+    "site": "https://xiezuocat.com/",
+    "category": "AI",
+    "notes": "秘塔写作猫官方 App Store 图标",
+    "updatedAt": "2026-10-08"
+  },
+  {
+    "id": "baidu",
+    "name": "百度",
+    "filename": "baidu.png",
+    "resolution": "512x512",
+    "format": "PNG",
+    "site": "https://www.baidu.com/",
+    "category": "搜索 / 工具",
+    "notes": "百度官方 App Store 图标",
+    "updatedAt": "2026-10-08"
+  },
+  {
+    "id": "google",
+    "name": "Google",
+    "filename": "google.png",
+    "resolution": "512x512",
+    "format": "PNG",
+    "site": "https://www.google.com/",
+    "category": "搜索 / 工具",
+    "notes": "Google 官方 App Store 图标",
+    "updatedAt": "2026-10-08"
+  },
+  {
+    "id": "sonkwo",
+    "name": "杉果游戏",
+    "filename": "sonkwo.png",
+    "resolution": "512x512",
+    "format": "PNG",
+    "site": "https://www.sonkwo.com/",
+    "category": "游戏 / 商城",
+    "notes": "杉果游戏官方 App Store 图标",
+    "updatedAt": "2026-10-08"
+  },
+  {
+    "id": "steampy",
+    "name": "SteamPY",
+    "filename": "steampy.png",
+    "resolution": "512x512",
+    "format": "PNG",
+    "site": "https://steampy.com/",
+    "category": "游戏 / 交易",
+    "notes": "SteamPY / 匹歪官方 App Store 图标",
+    "updatedAt": "2026-10-08"
+  },
+  {
+    "id": "epic",
+    "name": "Epic Games",
+    "filename": "epic.png",
+    "resolution": "512x512",
+    "format": "PNG",
+    "site": "https://store.epicgames.com/",
+    "category": "游戏 / 商城",
+    "notes": "Epic Games 官方 App Store 图标",
     "updatedAt": "2026-10-08"
   }
 ]
