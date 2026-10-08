@@ -18,8 +18,8 @@
     "format": "SVG",
     "site": "https://chatgpt.com/",
     "category": "AI",
-    "notes": "OpenAI ChatGPT 官方矢量标志",
-    "updatedAt": "2026-09-26"
+    "notes": "OpenAI ChatGPT 官方黑色线条线框矢量标志（透明背景）",
+    "updatedAt": "2026-10-08"
   },
   {
     "id": "deepseek",
@@ -29,8 +29,8 @@
     "format": "SVG",
     "site": "https://chat.deepseek.com/",
     "category": "AI",
-    "notes": "DeepSeek 深度求索官方蓝鲸标志",
-    "updatedAt": "2026-09-26"
+    "notes": "DeepSeek 深度求索官方蓝鲸标志（无文字/透明背景）",
+    "updatedAt": "2026-10-08"
   },
   {
     "id": "grok",
@@ -40,8 +40,8 @@
     "format": "SVG",
     "site": "https://grok.com/",
     "category": "AI",
-    "notes": "xAI Grok 官方矢量标志",
-    "updatedAt": "2026-09-26"
+    "notes": "xAI Grok 官方圆角方块矢量标志（无文字）",
+    "updatedAt": "2026-10-08"
   },
   {
     "id": "onedrive",
@@ -306,5 +306,16 @@
     "category": "AI",
     "notes": "Google Gemini 官方彩色星芒矢量标志",
     "updatedAt": "2026-10-04"
+  },
+  {
+    "id": "claude",
+    "name": "Claude",
+    "filename": "claude.svg",
+    "resolution": "Vector",
+    "format": "SVG",
+    "site": "https://claude.ai/",
+    "category": "AI",
+    "notes": "Anthropic Claude 官方星芒矢量标志",
+    "updatedAt": "2026-10-08"
   }
 ]
