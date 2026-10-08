@@ -13,34 +13,34 @@
   {
     "id": "chatgpt",
     "name": "ChatGPT",
-    "filename": "chatgpt.svg",
-    "resolution": "Vector",
-    "format": "SVG",
+    "filename": "chatgpt.png",
+    "resolution": "512x512",
+    "format": "PNG",
     "site": "https://chatgpt.com/",
     "category": "AI",
-    "notes": "OpenAI ChatGPT 官方黑色线条线框矢量标志（透明背景）",
+    "notes": "OpenAI ChatGPT 官方 App Store 图标（白底圆角）",
     "updatedAt": "2026-10-08"
   },
   {
     "id": "deepseek",
     "name": "DeepSeek",
-    "filename": "deepseek.svg",
-    "resolution": "Vector",
-    "format": "SVG",
+    "filename": "deepseek.png",
+    "resolution": "512x512",
+    "format": "PNG",
     "site": "https://chat.deepseek.com/",
     "category": "AI",
-    "notes": "DeepSeek 深度求索官方蓝鲸标志（无文字/透明背景）",
+    "notes": "DeepSeek 深度求索官方 App Store 图标（白底蓝鲸圆角）",
     "updatedAt": "2026-10-08"
   },
   {
     "id": "grok",
     "name": "Grok",
-    "filename": "grok.svg",
-    "resolution": "Vector",
-    "format": "SVG",
+    "filename": "grok.png",
+    "resolution": "512x512",
+    "format": "PNG",
     "site": "https://grok.com/",
     "category": "AI",
-    "notes": "xAI Grok 官方圆角方块矢量标志（无文字）",
+    "notes": "xAI Grok 官方 App Store 图标（黑底斜杠圆角）",
     "updatedAt": "2026-10-08"
   },
   {
@@ -299,23 +299,23 @@
   {
     "id": "gemini",
     "name": "Gemini",
-    "filename": "gemini.svg",
-    "resolution": "Vector",
-    "format": "SVG",
+    "filename": "gemini.png",
+    "resolution": "512x512",
+    "format": "PNG",
     "site": "https://gemini.google.com/",
     "category": "AI",
-    "notes": "Google Gemini 官方彩色星芒矢量标志",
-    "updatedAt": "2026-10-04"
+    "notes": "Google Gemini 官方 App Store 图标（白底星芒圆角）",
+    "updatedAt": "2026-10-08"
   },
   {
     "id": "claude",
     "name": "Claude",
-    "filename": "claude.svg",
-    "resolution": "Vector",
-    "format": "SVG",
+    "filename": "claude.png",
+    "resolution": "512x512",
+    "format": "PNG",
     "site": "https://claude.ai/",
     "category": "AI",
-    "notes": "Anthropic Claude 官方星芒矢量标志",
+    "notes": "Anthropic Claude 官方 App Store 图标（赤陶圆角）",
     "updatedAt": "2026-10-08"
   }
 ]
