@@ -11,6 +11,17 @@
     "updatedAt": "2026-09-26"
   },
   {
+    "id": "cloudflare-sentinel",
+    "name": "Cloudflare Sentinel",
+    "filename": "cloudflare-sentinel.png",
+    "resolution": "512x512",
+    "format": "PNG",
+    "site": "https://www.cloudflare.com/",
+    "category": "VPS / 云计算",
+    "notes": "Cloudflare Sentinel 外部监控专属官方双色橙云 Logo",
+    "updatedAt": "2026-10-09"
+  },
+  {
     "id": "chatgpt",
     "name": "ChatGPT",
     "filename": "chatgpt.png",
