@@ -1,0 +1,502 @@
+{
+  "name": "The Magic (中英双语优化版)",
+  "description": "The Magic 节点、策略组与常用服务图标集，中英文共存，适配 Loon",
+  "icons": [
+    {
+      "name": "Naiyou",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/the_magic/Naiyou.png"
+    },
+    {
+      "name": "IMM",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/the_magic/IMM.png"
+    },
+    {
+      "name": "Kuromis",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/the_magic/Kuromis.png"
+    },
+    {
+      "name": "AMY",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/the_magic/AMY.png"
+    },
+    {
+      "name": "Ytoo1",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/the_magic/Ytoo1.png"
+    },
+    {
+      "name": "Flowercloud",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/the_magic/Flowercloud.png"
+    },
+    {
+      "name": "Texon1",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/the_magic/Texon1.png"
+    },
+    {
+      "name": "Texon3",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/the_magic/Texon3.png"
+    },
+    {
+      "name": "Shutiao",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/the_magic/Shutiao.png"
+    },
+    {
+      "name": "Wd1",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/the_magic/Wd1.png"
+    },
+    {
+      "name": "Tag",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/the_magic/Tag.png"
+    },
+    {
+      "name": "BBbus",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/the_magic/BBbus.png"
+    },
+    {
+      "name": "Bitz",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/the_magic/Bitz.png"
+    },
+    {
+      "name": "Meiying1",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/the_magic/Meiying1.png"
+    },
+    {
+      "name": "xs",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/the_magic/Xsus.png"
+    },
+    {
+      "name": "xfss1",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/the_magic/xfss1.png"
+    },
+    {
+      "name": "Boom",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/the_magic/Boom.png"
+    },
+    {
+      "name": "TNTV2",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/the_magic/TNTV2.png"
+    },
+    {
+      "name": "EF",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/the_magic/EF.png"
+    },
+    {
+      "name": "EF2",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/the_magic/EF2.png"
+    },
+    {
+      "name": "Yiri1",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/the_magic/Yiri1.png"
+    },
+    {
+      "name": "Fishport0",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/the_magic/Fishport0.png"
+    },
+    {
+      "name": "Fishchip",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/the_magic/Fishchip.png"
+    },
+    {
+      "name": "Suwa",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/the_magic/Suwa.png"
+    },
+    {
+      "name": "Bywave",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/the_magic/Bywave.png"
+    },
+    {
+      "name": "CT1",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/the_magic/CT1.png"
+    },
+    {
+      "name": "Mojie",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/the_magic/Mojie2.png"
+    },
+    {
+      "name": "Flyingbird",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/the_magic/Flyingbird.png"
+    },
+    {
+      "name": "Renzheyun",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/the_magic/Renzheyun.png"
+    },
+    {
+      "name": "Xianyu13",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/the_magic/Xianyu13.png"
+    },
+    {
+      "name": "BYG",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/the_magic/BYG.png"
+    },
+    {
+      "name": "Titan1",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/the_magic/Titan1.png"
+    },
+    {
+      "name": "MIlk",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/the_magic/MIlk.png"
+    },
+    {
+      "name": "Cream2",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/the_magic/Cream2.png"
+    },
+    {
+      "name": "Paofu2",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/the_magic/Paofu2.png"
+    },
+    {
+      "name": "Flybird",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/the_magic/Flybird.png"
+    },
+    {
+      "name": "Xray",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/the_magic/Xray.png"
+    },
+    {
+      "name": "WYY",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/the_magic/WYY.png"
+    },
+    {
+      "name": "Xingjiabi",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/the_magic/Xingjiabi.png"
+    },
+    {
+      "name": "DJ-吉布提",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/the_magic/DJ.png"
+    },
+    {
+      "name": "Lightcat",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/the_magic/Lightcat.png"
+    },
+    {
+      "name": "Fishport",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/the_magic/Fishport.png"
+    },
+    {
+      "name": "Bigairport",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/the_magic/Bigairport.png"
+    },
+    {
+      "name": "Alink",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/the_magic/Alink.png"
+    },
+    {
+      "name": "Jiji",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/the_magic/Jiji.png"
+    },
+    {
+      "name": "Catnet",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/the_magic/Catnet.png"
+    },
+    {
+      "name": "Gatern",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/the_magic/Gatern.png"
+    },
+    {
+      "name": "Ark",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/the_magic/Ark.png"
+    },
+    {
+      "name": "Paoluyun",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/the_magic/Paoluyun.png"
+    },
+    {
+      "name": "V4",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/the_magic/V4.png"
+    },
+    {
+      "name": "Liying",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/the_magic/Liying.png"
+    },
+    {
+      "name": "Fast",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/the_magic/Fast.png"
+    },
+    {
+      "name": "Bajie",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/the_magic/Bajie.png"
+    },
+    {
+      "name": "Kuayue",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/the_magic/Kuayue.png"
+    },
+    {
+      "name": "Anyland",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/the_magic/Anyland.png"
+    },
+    {
+      "name": "Jumao",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/the_magic/Jumao.png"
+    },
+    {
+      "name": "Jiji",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/the_magic/Jiji.png"
+    },
+    {
+      "name": "ELE",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/the_magic/ELE.png"
+    },
+    {
+      "name": "Coffee2",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/the_magic/Coffee2.png"
+    },
+    {
+      "name": "Qingliang",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/the_magic/Qingliang.png"
+    },
+    {
+      "name": "Liangyuandian",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/the_magic/Liangyuandian.png"
+    },
+    {
+      "name": "Scr",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/the_magic/Scr.png"
+    },
+    {
+      "name": "Kaochang",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/the_magic/Kaochang.png"
+    },
+    {
+      "name": "Mofaxueyuan",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/the_magic/Mofaxueyuan.png"
+    },
+    {
+      "name": "Bailanyun",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/the_magic/Bailanyun.png"
+    },
+    {
+      "name": "Suannai",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/the_magic/Suannai.png"
+    },
+    {
+      "name": "Miaosu",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/the_magic/Miaosu.png"
+    },
+    {
+      "name": "Guoji",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/the_magic/Guoji.png"
+    },
+    {
+      "name": "Taoli",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/the_magic/Taoli.png"
+    },
+    {
+      "name": "ENET",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/the_magic/ENET.png"
+    },
+    {
+      "name": "BK",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/the_magic/BK.png"
+    },
+    {
+      "name": "Qingning",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/the_magic/Qingning.png"
+    },
+    {
+      "name": "Windy1",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/the_magic/Windy1.png"
+    },
+    {
+      "name": "Sifei",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/the_magic/Sifei.png"
+    },
+    {
+      "name": "yy1",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/the_magic/yiyuan1.png"
+    },
+    {
+      "name": "Peiqian",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/the_magic/Peiqian.png"
+    },
+    {
+      "name": "KQS",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/the_magic/KQS.png"
+    },
+    {
+      "name": "Mihuan1",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/the_magic/Mihuan1.png"
+    },
+    {
+      "name": "XNY",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/the_magic/XNY.png"
+    },
+    {
+      "name": "YYZ",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/the_magic/YYZ.png"
+    },
+    {
+      "name": "VV",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/the_magic/VV.png"
+    },
+    {
+      "name": "MESL",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/the_magic/MESL.png"
+    },
+    {
+      "name": "ETON",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/the_magic/ETON.png"
+    },
+    {
+      "name": "Linkcube2",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/the_magic/Linkcube2.png"
+    },
+    {
+      "name": "BBQ",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/the_magic/BBQ.png"
+    },
+    {
+      "name": "SKNP",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/the_magic/SKNP.png"
+    },
+    {
+      "name": "Coffee1",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/the_magic/Coffee1.png"
+    },
+    {
+      "name": "MTC",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/the_magic/MTC1.png"
+    },
+    {
+      "name": "Kitty1",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/the_magic/Kitty1.png"
+    },
+    {
+      "name": "Sese",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/the_magic/Sese.png"
+    },
+    {
+      "name": "Xiaoheizi",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/the_magic/Xiaoheizi.png"
+    },
+    {
+      "name": "Jiji1",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/the_magic/Jiji1.png"
+    },
+    {
+      "name": "Xiaoheizi1",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/the_magic/Xiaoheizi1.png"
+    },
+    {
+      "name": "Xenolink",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/the_magic/Xenolink1.png"
+    },
+    {
+      "name": "Iqzone",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/the_magic/Iqzone.png"
+    },
+    {
+      "name": "Dahuangfeng",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/the_magic/Dahuangfeng.png"
+    },
+    {
+      "name": "Uni",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/the_magic/Uni.png"
+    },
+    {
+      "name": "Sichouzhilu",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/the_magic/Sichouzhilu2.png"
+    },
+    {
+      "name": "ConnectEase",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/the_magic/ConnectEase1.png"
+    },
+    {
+      "name": "Gohaha",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/the_magic/Gohaha.png"
+    },
+    {
+      "name": "CTC",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/the_magic/CTC.png"
+    },
+    {
+      "name": "Ciyuanyun",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/the_magic/Ciyuanyun.png"
+    },
+    {
+      "name": "Xinglianyun",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/the_magic/Xinglianyun1.png"
+    },
+    {
+      "name": "Jike",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/the_magic/Jike.png"
+    },
+    {
+      "name": "Lingyun",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/the_magic/Lingyun.png"
+    },
+    {
+      "name": "ACA",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/the_magic/ACA.png"
+    },
+    {
+      "name": "Fm-密克罗尼西亚",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/the_magic/Fm.png"
+    },
+    {
+      "name": "COO",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/the_magic/COO.png"
+    },
+    {
+      "name": "Dlercloud1",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/the_magic/Dlercloud1.png"
+    },
+    {
+      "name": "Ecloud",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/the_magic/Ecloud1.png"
+    },
+    {
+      "name": "Dingdangamo",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/the_magic/Dingdangamo.png"
+    },
+    {
+      "name": "BK5",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/the_magic/bk5.png"
+    },
+    {
+      "name": "DEG",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/the_magic/DEG.png"
+    },
+    {
+      "name": "Simple",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/the_magic/Simple.png"
+    },
+    {
+      "name": "Caiyun",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/the_magic/Caiyun.png"
+    },
+    {
+      "name": "UNI",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/the_magic/UNI3.png"
+    },
+    {
+      "name": "To2",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/the_magic/To21442.png"
+    },
+    {
+      "name": "Lend",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/the_magic/Lend3.png"
+    },
+    {
+      "name": "FC",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/the_magic/FC.png"
+    },
+    {
+      "name": "Shouhou",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/the_magic/Shouhou.png"
+    },
+    {
+      "name": "Sifangcai",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/the_magic/Sifangcai.png"
+    },
+    {
+      "name": "VPS",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/the_magic/VPS31.png"
+    },
+    {
+      "name": "VPS",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/the_magic/VPS4.png"
+    },
+    {
+      "name": "VPS",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/the_magic/VPS.png"
+    }
+  ]
+}

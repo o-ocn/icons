@@ -94,9 +94,60 @@
 
 ---
 
-## 🛠️ 如何添加新图标
+## 🚀 Loon 代理策略组与节点图标库 (Loon Iconset)
 
+专为 iOS 平台网络工具 **Loon**（同时兼容 Surge / Quantumult X 等）维护的策略组与节点高清图标库，所有上游图标均已完整拉取并本地化保存在本仓库内，支持全量中文化检索与一键订阅导入。
+
+### 📐 Loon 图标尺寸与规格规范
+
+根据 Loon 官方与社区主流规范：
+1. **分辨率（尺寸）**：推荐 **`512 × 512` 像素**（高分屏极致清晰，兼容 `120×120` 至 `512×512`）；
+2. **图片格式**：推荐带透明通道的 **`PNG` (RGBA)** 或 `SVG` 矢量格式；
+3. **视觉风格**：推荐 **Apple 方圆角（Squircle）** 裁剪（曲率半径约为 22.4%）或中心透明图形；
+4. **体积控制**：单个图标控制在 **`30KB` 以内**（最大不宜超过 `100KB`），确保策略组展开与列表滚动时零延迟秒开。
+
+---
+
+### 📲 Loon 图标库一键导入 (URL Scheme)
+
+在已安装 Loon 的 iOS 设备上，点击下方链接或将 JSON 直链复制到 Loon 导入即可：
+
+| 图标库名称 | 说明与覆盖范围 | Loon 一键导入链接 | JSON 订阅直链 (GitHub Raw) |
+| :--- | :--- | :---: | :--- |
+| **🌟 Loon 个人全量聚合库 (推荐)** | 集成全部上游 + 个人定制 (VMISS 等)，采用【英文-中文】双语共存检索 | [📲 一键导入](https://www.nsloon.app/openloon/import?iconset=https://raw.githubusercontent.com/o-ocn/icons/main/loon/loon.json) | [`loon.json`](https://raw.githubusercontent.com/o-ocn/icons/main/loon/loon.json) |
+| **🇨🇳 彩色静态旗帜 (双语版)** | 262 款全球国家与地区彩色国旗，【US-美国】100% 双向可搜 | [📲 一键导入](https://www.nsloon.app/openloon/import?iconset=https://raw.githubusercontent.com/o-ocn/icons/main/loon/colorful_flags.json) | [`colorful_flags.json`](https://raw.githubusercontent.com/o-ocn/icons/main/loon/colorful_flags.json) |
+| **🪄 The Magic (双语版)** | 常用主流机场、核心节点与代理策略专用图标 | [📲 一键导入](https://www.nsloon.app/openloon/import?iconset=https://raw.githubusercontent.com/o-ocn/icons/main/loon/the_magic.json) | [`the_magic.json`](https://raw.githubusercontent.com/o-ocn/icons/main/loon/the_magic.json) |
+| **🎵 离歌图标包 (双语版)** | 离歌自绘应用、流媒体、游戏与机场图标包（TG: @ligeicon） | [📲 一键导入](https://www.nsloon.app/openloon/import?iconset=https://raw.githubusercontent.com/o-ocn/icons/main/loon/ligeicon.json) | [`ligeicon.json`](https://raw.githubusercontent.com/o-ocn/icons/main/loon/ligeicon.json) |
+| **📦 fmz200 图标库 (双语版)** | 包含海量知名 App、金融银行、动漫与实用工具图标 | [📲 一键导入](https://www.nsloon.app/openloon/import?iconset=https://raw.githubusercontent.com/o-ocn/icons/main/loon/fmz200.json) | [`fmz200.json`](https://raw.githubusercontent.com/o-ocn/icons/main/loon/fmz200.json) |
+
+---
+
+### 📝 在 Loon 配置文件中单图标引用 (`img-url`)
+
+在 Loon 的文本配置 `[Proxy Group]` 策略组中，可以直接使用 `img-url` 字段引用：
+
+```ini
+[Proxy Group]
+# 引用本库专属定制图标 (VMISS)
+VMISS = select, 节点1, img-url = https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/custom/vmiss.png
+
+# 引用国旗图标 (如美国、日本)
+美国节点 = select, 节点1, img-url = https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/US.png
+日本节点 = select, 节点1, img-url = https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/JP.png
+```
+
+---
+
+## 🛠️ 如何添加与上传新图标
+
+### 1. 添加 Web 网站图标
 1. 将图标文件放入 `icons/` 目录；
 2. 在 `data/icons.json` 中添加该图标的条目元数据；
 3. 更新 `README.md` 表格；
-4. 运行 `git commit` 并 `git push` 到 `main` 分支，GitHub Pages 将在 30 秒内自动生效！
+4. 提交并推送到 `main` 分支。
+
+### 2. 添加 Loon 专属图标
+1. 将图标文件放入 `loon/icons/custom/` 目录（建议为 512×512 PNG，体积 <30KB）；
+2. 在 `loon/loon.json` 中注册图标中文名称与对应的 Raw / CDN 直链；
+3. 提交并推送到 `main` 分支，Loon 客户端更新订阅后即可搜索使用！
+

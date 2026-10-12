@@ -1,0 +1,1054 @@
+{
+  "name": "彩色静态旗帜 (中英双语检索版)",
+  "description": "国家与地区彩色静态旗帜图标库，采用【英文代码-中文名称】双语共存格式，适配 Loon 检索",
+  "icons": [
+    {
+      "name": "AD-安道尔",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/AD.png"
+    },
+    {
+      "name": "AE-阿联酋",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/AE.png"
+    },
+    {
+      "name": "AF-阿富汗",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/AF.png"
+    },
+    {
+      "name": "AG-安提瓜和巴布达",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/AG.png"
+    },
+    {
+      "name": "AI-安圭拉",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/AI.png"
+    },
+    {
+      "name": "AL-阿尔巴尼亚",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/AL.png"
+    },
+    {
+      "name": "AM-亚美尼亚",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/AM.png"
+    },
+    {
+      "name": "AN-荷属安的列斯",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/AN.png"
+    },
+    {
+      "name": "AO-安哥拉",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/AO.png"
+    },
+    {
+      "name": "AR-阿根廷",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/AR.png"
+    },
+    {
+      "name": "AS-美属萨摩亚",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/AS.png"
+    },
+    {
+      "name": "AT-奥地利",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/AT.png"
+    },
+    {
+      "name": "AU-澳大利亚",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/AU.png"
+    },
+    {
+      "name": "AW-阿鲁巴",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/AW.png"
+    },
+    {
+      "name": "AX-奥兰群岛",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/AX.png"
+    },
+    {
+      "name": "AZ-阿塞拜疆",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/AZ.png"
+    },
+    {
+      "name": "BA-波黑",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/BA.png"
+    },
+    {
+      "name": "BB-巴巴多斯",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/BB.png"
+    },
+    {
+      "name": "BD-孟加拉国",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/BD.png"
+    },
+    {
+      "name": "BE-比利时",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/BE.png"
+    },
+    {
+      "name": "BF-布基纳法索",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/BF.png"
+    },
+    {
+      "name": "BG-保加利亚",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/BG.png"
+    },
+    {
+      "name": "BH-巴林",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/BH.png"
+    },
+    {
+      "name": "BI-布隆迪",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/BI.png"
+    },
+    {
+      "name": "BJ-贝宁",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/BJ.png"
+    },
+    {
+      "name": "BL-圣巴泰勒米",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/BL.png"
+    },
+    {
+      "name": "BM-百慕大",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/BM.png"
+    },
+    {
+      "name": "BN-文莱",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/BN.png"
+    },
+    {
+      "name": "BO-玻利维亚",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/BO.png"
+    },
+    {
+      "name": "BR-巴西",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/BR.png"
+    },
+    {
+      "name": "BS-巴哈马",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/BS.png"
+    },
+    {
+      "name": "BT-不丹",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/BT.png"
+    },
+    {
+      "name": "BV-布韦岛",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/BV.png"
+    },
+    {
+      "name": "BW-博茨瓦纳",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/BW.png"
+    },
+    {
+      "name": "BY-白俄罗斯",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/BY.png"
+    },
+    {
+      "name": "BZ-伯利兹",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/BZ.png"
+    },
+    {
+      "name": "CA-加拿大",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/CA.png"
+    },
+    {
+      "name": "CAF-非洲",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/CAF.png"
+    },
+    {
+      "name": "CAS-中亚",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/CAS.png"
+    },
+    {
+      "name": "CC-科科斯群岛",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/CC.png"
+    },
+    {
+      "name": "CD-刚果金",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/CD.png"
+    },
+    {
+      "name": "CEU-中欧",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/CEU.png"
+    },
+    {
+      "name": "CF-中非",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/CF.png"
+    },
+    {
+      "name": "CG-刚果布",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/CG.png"
+    },
+    {
+      "name": "CH-瑞士",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/CH.png"
+    },
+    {
+      "name": "CI-科特迪瓦",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/CI.png"
+    },
+    {
+      "name": "CK-库克群岛",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/CK.png"
+    },
+    {
+      "name": "CL-智利",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/CL.png"
+    },
+    {
+      "name": "CM-喀麦隆",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/CM.png"
+    },
+    {
+      "name": "CN-中国",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/CN.png"
+    },
+    {
+      "name": "CNA-北美",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/CNA.png"
+    },
+    {
+      "name": "CO-哥伦比亚",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/CO.png"
+    },
+    {
+      "name": "COC-大洋洲",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/COC.png"
+    },
+    {
+      "name": "CR-哥斯达黎加",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/CR.png"
+    },
+    {
+      "name": "CSA-南美",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/CSA.png"
+    },
+    {
+      "name": "CU-古巴",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/CU.png"
+    },
+    {
+      "name": "CV-佛得角",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/CV.png"
+    },
+    {
+      "name": "CW-库拉索",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/CW.png"
+    },
+    {
+      "name": "CX-圣诞岛",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/CX.png"
+    },
+    {
+      "name": "CY-塞浦路斯",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/CY.png"
+    },
+    {
+      "name": "CZ-捷克",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/CZ.png"
+    },
+    {
+      "name": "DE-德国",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/DE.png"
+    },
+    {
+      "name": "DJ-吉布提",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/DJ.png"
+    },
+    {
+      "name": "DK-丹麦",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/DK.png"
+    },
+    {
+      "name": "DM-多米尼克",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/DM.png"
+    },
+    {
+      "name": "DO-多米尼加",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/DO.png"
+    },
+    {
+      "name": "DZ-阿尔及利亚",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/DZ.png"
+    },
+    {
+      "name": "EC-厄瓜多尔",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/EC.png"
+    },
+    {
+      "name": "EE-爱沙尼亚",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/EE.png"
+    },
+    {
+      "name": "EG-埃及",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/EG.png"
+    },
+    {
+      "name": "EH-西撒哈拉",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/EH.png"
+    },
+    {
+      "name": "ER-厄立特里亚",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/ER.png"
+    },
+    {
+      "name": "ES-西班牙",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/ES.png"
+    },
+    {
+      "name": "ET-埃塞俄比亚",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/ET.png"
+    },
+    {
+      "name": "EU-欧盟",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/EU.png"
+    },
+    {
+      "name": "FI-芬兰",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/FI.png"
+    },
+    {
+      "name": "FJ-斐济",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/FJ.png"
+    },
+    {
+      "name": "FK-福克兰群岛",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/FK.png"
+    },
+    {
+      "name": "FM-密克罗尼西亚",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/FM.png"
+    },
+    {
+      "name": "FO-法罗群岛",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/FO.png"
+    },
+    {
+      "name": "FR-法国",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/FR.png"
+    },
+    {
+      "name": "GA-加蓬",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/GA.png"
+    },
+    {
+      "name": "GB-英国",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/GB.png"
+    },
+    {
+      "name": "GB-ENG-英国",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/GB-ENG.png"
+    },
+    {
+      "name": "GB-NIR-英国",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/GB-NIR.png"
+    },
+    {
+      "name": "GB-SCT-英国",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/GB-SCT.png"
+    },
+    {
+      "name": "GB-WLS-英国",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/GB-WLS.png"
+    },
+    {
+      "name": "GB-ZET-英国",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/GB-ZET.png"
+    },
+    {
+      "name": "GD-格林纳达",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/GD.png"
+    },
+    {
+      "name": "GE-格鲁吉亚",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/GE.png"
+    },
+    {
+      "name": "GF-法属圭亚那",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/GF.png"
+    },
+    {
+      "name": "GG-根西岛",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/GG.png"
+    },
+    {
+      "name": "GH-加纳",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/GH.png"
+    },
+    {
+      "name": "GI-直布罗陀",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/GI.png"
+    },
+    {
+      "name": "GL-格陵兰",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/GL.png"
+    },
+    {
+      "name": "GM-冈比亚",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/GM.png"
+    },
+    {
+      "name": "GN-几内亚",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/GN.png"
+    },
+    {
+      "name": "GP-瓜德罗普",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/GP.png"
+    },
+    {
+      "name": "GQ-赤道几内亚",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/GQ.png"
+    },
+    {
+      "name": "GR-希腊",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/GR.png"
+    },
+    {
+      "name": "GS-南乔治亚",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/GS.png"
+    },
+    {
+      "name": "GT-危地马拉",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/GT.png"
+    },
+    {
+      "name": "GU-关岛",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/GU.png"
+    },
+    {
+      "name": "GW-几内亚比绍",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/GW.png"
+    },
+    {
+      "name": "GY-圭亚那",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/GY.png"
+    },
+    {
+      "name": "HK-香港",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/HK.png"
+    },
+    {
+      "name": "HM-赫德岛",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/HM.png"
+    },
+    {
+      "name": "HN-洪都拉斯",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/HN.png"
+    },
+    {
+      "name": "HR-克罗地亚",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/HR.png"
+    },
+    {
+      "name": "HT-海地",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/HT.png"
+    },
+    {
+      "name": "HU-匈牙利",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/HU.png"
+    },
+    {
+      "name": "ID-印尼",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/ID.png"
+    },
+    {
+      "name": "IE-爱尔兰",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/IE.png"
+    },
+    {
+      "name": "IL-以色列",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/IL.png"
+    },
+    {
+      "name": "IM-马恩岛",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/IM.png"
+    },
+    {
+      "name": "IN-印度",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/IN.png"
+    },
+    {
+      "name": "IO-英属印度洋领地",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/IO.png"
+    },
+    {
+      "name": "IQ-伊拉克",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/IQ.png"
+    },
+    {
+      "name": "IR-伊朗",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/IR.png"
+    },
+    {
+      "name": "IS-冰岛",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/IS.png"
+    },
+    {
+      "name": "IT-意大利",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/IT.png"
+    },
+    {
+      "name": "JE-泽西岛",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/JE.png"
+    },
+    {
+      "name": "JM-牙买加",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/JM.png"
+    },
+    {
+      "name": "JO-约旦",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/JO.png"
+    },
+    {
+      "name": "JP-日本",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/JP.png"
+    },
+    {
+      "name": "KE-肯尼亚",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/KE.png"
+    },
+    {
+      "name": "KG-吉尔吉斯斯坦",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/KG.png"
+    },
+    {
+      "name": "KH-柬埔寨",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/KH.png"
+    },
+    {
+      "name": "KI-基里巴斯",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/KI.png"
+    },
+    {
+      "name": "KM-科摩罗",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/KM.png"
+    },
+    {
+      "name": "KN-圣基茨和尼维斯",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/KN.png"
+    },
+    {
+      "name": "KP-朝鲜",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/KP.png"
+    },
+    {
+      "name": "KR-韩国",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/KR.png"
+    },
+    {
+      "name": "KW-科威特",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/KW.png"
+    },
+    {
+      "name": "KY-开曼群岛",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/KY.png"
+    },
+    {
+      "name": "KZ-哈萨克斯坦",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/KZ.png"
+    },
+    {
+      "name": "LA-老挝",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/LA.png"
+    },
+    {
+      "name": "LB-黎巴嫩",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/LB.png"
+    },
+    {
+      "name": "LC-圣卢西亚",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/LC.png"
+    },
+    {
+      "name": "LGBT-彩虹旗",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/LGBT.png"
+    },
+    {
+      "name": "LI-列支敦士登",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/LI.png"
+    },
+    {
+      "name": "LK-斯里兰卡",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/LK.png"
+    },
+    {
+      "name": "LR-利比里亚",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/LR.png"
+    },
+    {
+      "name": "LS-莱索托",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/LS.png"
+    },
+    {
+      "name": "LT-立陶宛",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/LT.png"
+    },
+    {
+      "name": "LU-卢森堡",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/LU.png"
+    },
+    {
+      "name": "LV-拉脱维亚",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/LV.png"
+    },
+    {
+      "name": "LY-利比亚",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/LY.png"
+    },
+    {
+      "name": "MA-摩洛哥",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/MA.png"
+    },
+    {
+      "name": "MC-摩纳哥",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/MC.png"
+    },
+    {
+      "name": "MD-摩尔多瓦",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/MD.png"
+    },
+    {
+      "name": "ME-黑山",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/ME.png"
+    },
+    {
+      "name": "MF-法属圣马丁",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/MF.png"
+    },
+    {
+      "name": "MG-马达加斯加",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/MG.png"
+    },
+    {
+      "name": "MH-马绍尔群岛",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/MH.png"
+    },
+    {
+      "name": "MK-北马其顿",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/MK.png"
+    },
+    {
+      "name": "ML-马里",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/ML.png"
+    },
+    {
+      "name": "MM-缅甸",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/MM.png"
+    },
+    {
+      "name": "MN-蒙古",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/MN.png"
+    },
+    {
+      "name": "MO-澳门",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/MO.png"
+    },
+    {
+      "name": "MP-北马里亚纳",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/MP.png"
+    },
+    {
+      "name": "MQ_2-马提尼克2",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/MQ_2.png"
+    },
+    {
+      "name": "MR_2-毛里塔尼亚2",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/MR_2.png"
+    },
+    {
+      "name": "MS-蒙特塞拉特",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/MS.png"
+    },
+    {
+      "name": "MT-马耳他",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/MT.png"
+    },
+    {
+      "name": "MU-毛里求斯",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/MU.png"
+    },
+    {
+      "name": "MV-马尔代夫",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/MV.png"
+    },
+    {
+      "name": "MW-马拉维",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/MW.png"
+    },
+    {
+      "name": "MX-墨西哥",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/MX.png"
+    },
+    {
+      "name": "MY-马来西亚",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/MY.png"
+    },
+    {
+      "name": "MZ-莫桑比克",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/MZ.png"
+    },
+    {
+      "name": "NA-纳米比亚",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/NA.png"
+    },
+    {
+      "name": "NC-新喀里多尼亚",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/NC.png"
+    },
+    {
+      "name": "NE-尼日尔",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/NE.png"
+    },
+    {
+      "name": "NF-诺福克岛",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/NF.png"
+    },
+    {
+      "name": "NG-尼日利亚",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/NG.png"
+    },
+    {
+      "name": "NI-尼加拉瓜",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/NI.png"
+    },
+    {
+      "name": "NL-荷兰",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/NL.png"
+    },
+    {
+      "name": "NO-挪威",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/NO.png"
+    },
+    {
+      "name": "NP-尼泊尔",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/NP.png"
+    },
+    {
+      "name": "NR-瑙鲁",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/NR.png"
+    },
+    {
+      "name": "NU-纽埃",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/NU.png"
+    },
+    {
+      "name": "NZ-新西兰",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/NZ.png"
+    },
+    {
+      "name": "OM-阿曼",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/OM.png"
+    },
+    {
+      "name": "PA-巴拿马",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/PA.png"
+    },
+    {
+      "name": "PE-秘鲁",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/PE.png"
+    },
+    {
+      "name": "PF-法属波利尼西亚",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/PF.png"
+    },
+    {
+      "name": "PG-巴布亚新几内亚",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/PG.png"
+    },
+    {
+      "name": "PH-菲律宾",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/PH.png"
+    },
+    {
+      "name": "PK-巴基斯坦",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/PK.png"
+    },
+    {
+      "name": "PL-波兰",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/PL.png"
+    },
+    {
+      "name": "PM-圣皮埃尔和密克隆",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/PM.png"
+    },
+    {
+      "name": "PN-皮特凯恩",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/PN.png"
+    },
+    {
+      "name": "PR-波多黎各",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/PR.png"
+    },
+    {
+      "name": "PS-巴勒斯坦",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/PS.png"
+    },
+    {
+      "name": "PT-葡萄牙",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/PT.png"
+    },
+    {
+      "name": "PW-帕劳",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/PW.png"
+    },
+    {
+      "name": "PY-巴拉圭",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/PY.png"
+    },
+    {
+      "name": "QA-卡塔尔",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/QA.png"
+    },
+    {
+      "name": "RE-留尼汪",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/RE.png"
+    },
+    {
+      "name": "RO-罗马尼亚",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/RO.png"
+    },
+    {
+      "name": "RS-塞尔维亚",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/RS.png"
+    },
+    {
+      "name": "RU-俄罗斯",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/RU.png"
+    },
+    {
+      "name": "RW-卢旺达",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/RW.png"
+    },
+    {
+      "name": "SA-沙特阿拉伯",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/SA.png"
+    },
+    {
+      "name": "SB-所罗门群岛",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/SB.png"
+    },
+    {
+      "name": "SC-塞舌尔",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/SC.png"
+    },
+    {
+      "name": "SD-苏丹",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/SD.png"
+    },
+    {
+      "name": "SE-瑞典",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/SE.png"
+    },
+    {
+      "name": "SG-新加坡",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/SG.png"
+    },
+    {
+      "name": "SH_2-圣赫勒拿2",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/SH_2.png"
+    },
+    {
+      "name": "SI-斯洛文尼亚",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/SI.png"
+    },
+    {
+      "name": "SJ_2-斯瓦尔巴2",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/SJ_2.png"
+    },
+    {
+      "name": "SK-斯洛伐克",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/SK.png"
+    },
+    {
+      "name": "SL-塞拉利昂",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/SL.png"
+    },
+    {
+      "name": "SM-圣马力诺",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/SM.png"
+    },
+    {
+      "name": "SN-塞内加尔",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/SN.png"
+    },
+    {
+      "name": "SO-索马里",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/SO.png"
+    },
+    {
+      "name": "SR-苏里南",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/SR.png"
+    },
+    {
+      "name": "SS-南苏丹",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/SS.png"
+    },
+    {
+      "name": "ST-圣多美和普林西比",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/ST.png"
+    },
+    {
+      "name": "SV-萨尔瓦多",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/SV.png"
+    },
+    {
+      "name": "SX-荷属圣马丁",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/SX.png"
+    },
+    {
+      "name": "SY-叙利亚",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/SY.png"
+    },
+    {
+      "name": "SZ-斯威士兰",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/SZ.png"
+    },
+    {
+      "name": "TC-特克斯和凯科斯群岛",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/TC.png"
+    },
+    {
+      "name": "TD-乍得",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/TD.png"
+    },
+    {
+      "name": "TG-多哥",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/TG.png"
+    },
+    {
+      "name": "TH-泰国",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/TH.png"
+    },
+    {
+      "name": "TJ-塔吉克斯坦",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/TJ.png"
+    },
+    {
+      "name": "TK-托克劳",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/TK.png"
+    },
+    {
+      "name": "TL-东帝汶",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/TL.png"
+    },
+    {
+      "name": "TM-土库曼斯坦",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/TM.png"
+    },
+    {
+      "name": "TN-突尼斯",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/TN.png"
+    },
+    {
+      "name": "TO-汤加",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/TO.png"
+    },
+    {
+      "name": "TR-土耳其",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/TR.png"
+    },
+    {
+      "name": "TT-特立尼达和多巴哥",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/TT.png"
+    },
+    {
+      "name": "TV-图瓦卢",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/TV.png"
+    },
+    {
+      "name": "TZ-坦桑尼亚",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/TZ.png"
+    },
+    {
+      "name": "UA-乌克兰",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/UA.png"
+    },
+    {
+      "name": "UG-乌干达",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/UG.png"
+    },
+    {
+      "name": "UM-美属边远小岛",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/UM.png"
+    },
+    {
+      "name": "US-美国",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/US.png"
+    },
+    {
+      "name": "US-CA-美国",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/US-CA.png"
+    },
+    {
+      "name": "UY-乌拉圭",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/UY.png"
+    },
+    {
+      "name": "UZ-乌兹别克斯坦",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/UZ.png"
+    },
+    {
+      "name": "VA-梵蒂冈",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/VA.png"
+    },
+    {
+      "name": "VC-圣文森特和格林纳丁斯",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/VC.png"
+    },
+    {
+      "name": "VE-委内瑞拉",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/VE.png"
+    },
+    {
+      "name": "VG-英属维尔京群岛",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/VG.png"
+    },
+    {
+      "name": "VI-美属维尔京群岛",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/VI.png"
+    },
+    {
+      "name": "VN-越南",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/VN.png"
+    },
+    {
+      "name": "VU-瓦努阿图",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/VU.png"
+    },
+    {
+      "name": "WF-瓦利斯和富图纳",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/WF.png"
+    },
+    {
+      "name": "WS-萨摩亚",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/WS.png"
+    },
+    {
+      "name": "WW-全球",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/WW.png"
+    },
+    {
+      "name": "XK-科索沃",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/XK.png"
+    },
+    {
+      "name": "YE-也门",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/YE.png"
+    },
+    {
+      "name": "YT-马约特",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/YT.png"
+    },
+    {
+      "name": "ZA-南非",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/ZA.png"
+    },
+    {
+      "name": "ZM-赞比亚",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/ZM.png"
+    },
+    {
+      "name": "ZW-津巴布韦",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/ZW.png"
+    }
+  ]
+}
