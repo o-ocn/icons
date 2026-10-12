@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Loon 图标库一键唤醒导入</title>
+  <link rel="icon" href="icons/vmiss.png" type="image/png">
+  <style>
+    :root {
+      --bg: #0c0d12;
+      --card-bg: rgba(26, 29, 38, 0.7);
+      --card-border: rgba(255, 255, 255, 0.1);
+      --text: #f0f2f5;
+      --text-muted: #8b949e;
+      --accent: #58a6ff;
+      --btn-bg: #238636;
+      --btn-hover: #2ea043;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: var(--bg);
+      background-image: 
+        radial-gradient(circle at 50% 20%, rgba(88, 166, 255, 0.12) 0%, transparent 50%),
+        radial-gradient(circle at 80% 80%, rgba(139, 92, 246, 0.08) 0%, transparent 40%);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+      text-align: center;
+    }
+
+    .card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 24px;
+      padding: 40px 28px;
+      max-width: 460px;
+      width: 100%;
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      box-shadow: 0 16px 40px rgba(0, 0, 0, 0.5);
+    }
+
+    .icon-box {
+      font-size: 54px;
+      margin-bottom: 20px;
+      display: inline-block;
+      animation: bounce 2s infinite ease-in-out;
+    }
+
+    @keyframes bounce {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-8px); }
+    }
+
+    h1 {
+      font-size: 1.5rem;
+      font-weight: 700;
+      margin-bottom: 12px;
+      color: #ffffff;
+    }
+
+    p {
+      color: var(--text-muted);
+      font-size: 0.95rem;
+      line-height: 1.6;
+      margin-bottom: 28px;
+    }
+
+    .btn {
+      display: block;
+      width: 100%;
+      padding: 15px 24px;
+      background: var(--btn-bg);
+      color: #ffffff;
+      text-decoration: none;
+      border-radius: 12px;
+      font-weight: 600;
+      font-size: 1.05rem;
+      transition: all 0.2s ease;
+      box-shadow: 0 4px 16px rgba(35, 134, 54, 0.35);
+      border: none;
+      cursor: pointer;
+    }
+
+    .btn:hover {
+      background: var(--btn-hover);
+      transform: translateY(-1px);
+    }
+
+    .copy-box {
+      margin-top: 24px;
+      padding-top: 20px;
+      border-top: 1px solid var(--card-border);
+    }
+
+    .copy-label {
+      font-size: 0.82rem;
+      color: var(--text-muted);
+      margin-bottom: 8px;
+    }
+
+    .url-display {
+      font-size: 0.82rem;
+      color: var(--accent);
+      background: rgba(255, 255, 255, 0.04);
+      padding: 10px 14px;
+      border-radius: 8px;
+      word-break: break-all;
+      border: 1px dashed var(--card-border);
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <div class="icon-box">🚀</div>
+    <h1>正在唤醒 Loon 导入图标库</h1>
+    <p>
+      系统正在唤醒 Loon App 并弹出导入面板。<br>
+      如果未自动跳转，请点击下方按钮直接打开：
+    </p>
+
+    <a id="open-btn" class="btn" href="#">📲 点击唤醒 Loon 导入</a>
+
+    <div class="copy-box">
+      <div class="copy-label">或复制纯净 JSON 链接在 Loon 内手动粘贴：</div>
+      <div id="url-text" class="url-display" onclick="copyUrl()">
+        https://raw.githubusercontent.com/o-ocn/icons/main/loon/loon.json
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // 默认全量库直链
+    const defaultJsonUrl = "https://raw.githubusercontent.com/o-ocn/icons/main/loon/loon.json";
+
+    // 支持通过 ?iconset=... 动态传递参数
+    const urlParams = new URLSearchParams(window.location.search);
+    const targetJsonUrl = urlParams.get('iconset') || defaultJsonUrl;
+
+    // 构造原生 Loon URL Scheme
+    const loonScheme = "loon://import?iconset=" + encodeURIComponent(targetJsonUrl);
+
+    // 绑定按钮与展示文本
+    const openBtn = document.getElementById("open-btn");
+    openBtn.href = loonScheme;
+    document.getElementById("url-text").innerText = targetJsonUrl;
+
+    // 自动触发唤醒跳转
+    window.location.href = loonScheme;
+
+    // 点击复制纯净链接
+    function copyUrl() {
+      navigator.clipboard.writeText(targetJsonUrl).then(() => {
+        alert("已复制纯净直链到剪贴板！\n可直接前往 Loon -> 图标添加订阅。");
+      }).catch(() => {
+        prompt("请复制下方直链：", targetJsonUrl);
+      });
+    }
+  </script>
+</body>
+</html>

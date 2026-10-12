@@ -116,7 +116,7 @@
 
 | 图标库名称 | 说明与覆盖范围 | Loon App 一键拉起链接 |
 | :--- | :--- | :---: |
-| **🌟 Loon 个人全量聚合库 (推荐)** | 精简优化版（共 2,779 款），机场统一采用 The Magic 方圆角，国旗采用扁平正方形贴片，剔除 210 款纯重复文件 | [📲 一键唤醒导入](loon://import?iconset=https%3A%2F%2Fraw.githubusercontent.com%2Fo-ocn%2Ficons%2Fmain%2Floon%2Floon.json) |
+| **🌟 Loon 个人全量聚合库 (推荐)** | 精简优化版（共 2,779 款），机场统一采用 The Magic 方圆角，国旗采用扁平正方形贴片，剔除 210 款纯重复文件 | [📲 一键唤醒导入](https://o-ocn.github.io/icons/openloon.html) |
 
 #### 方式二：Loon 客户端内手动添加订阅（推荐，最稳定）
 
