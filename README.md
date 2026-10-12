@@ -108,17 +108,50 @@
 
 ---
 
-### 📲 Loon 图标库一键导入 (URL Scheme)
+### 📲 Loon 图标库导入方式
 
-在已安装 Loon 的 iOS 设备上，点击下方链接或将 JSON 直链复制到 Loon 导入即可：
+#### 方式一：iOS 快捷一键唤醒（点击直接拉起 Loon App）
 
-| 图标库名称 | 说明与覆盖范围 | Loon 一键导入链接 | JSON 订阅直链 (GitHub Raw) |
-| :--- | :--- | :---: | :--- |
-| **🌟 Loon 个人全量聚合库 (推荐)** | 集成全部上游 + 个人定制 (VMISS 等)，采用【英文-中文】双语共存检索 | [📲 一键导入](https://www.nsloon.app/openloon/import?iconset=https://raw.githubusercontent.com/o-ocn/icons/main/loon/loon.json) | [`loon.json`](https://raw.githubusercontent.com/o-ocn/icons/main/loon/loon.json) |
-| **🇨🇳 彩色静态旗帜 (双语版)** | 262 款全球国家与地区彩色国旗，【US-美国】100% 双向可搜 | [📲 一键导入](https://www.nsloon.app/openloon/import?iconset=https://raw.githubusercontent.com/o-ocn/icons/main/loon/colorful_flags.json) | [`colorful_flags.json`](https://raw.githubusercontent.com/o-ocn/icons/main/loon/colorful_flags.json) |
-| **🪄 The Magic (双语版)** | 常用主流机场、核心节点与代理策略专用图标 | [📲 一键导入](https://www.nsloon.app/openloon/import?iconset=https://raw.githubusercontent.com/o-ocn/icons/main/loon/the_magic.json) | [`the_magic.json`](https://raw.githubusercontent.com/o-ocn/icons/main/loon/the_magic.json) |
-| **🎵 离歌图标包 (双语版)** | 离歌自绘应用、流媒体、游戏与机场图标包（TG: @ligeicon） | [📲 一键导入](https://www.nsloon.app/openloon/import?iconset=https://raw.githubusercontent.com/o-ocn/icons/main/loon/ligeicon.json) | [`ligeicon.json`](https://raw.githubusercontent.com/o-ocn/icons/main/loon/ligeicon.json) |
-| **📦 fmz200 图标库 (双语版)** | 包含海量知名 App、金融银行、动漫与实用工具图标 | [📲 一键导入](https://www.nsloon.app/openloon/import?iconset=https://raw.githubusercontent.com/o-ocn/icons/main/loon/fmz200.json) | [`fmz200.json`](https://raw.githubusercontent.com/o-ocn/icons/main/loon/fmz200.json) |
+在已安装 Loon 的 iOS 设备上使用 Safari 点击下方链接，系统将自动唤醒 Loon 并弹出导入面板：
+
+| 图标库名称 | 说明与覆盖范围 | Loon App 一键拉起链接 |
+| :--- | :--- | :---: |
+| **🌟 Loon 个人全量聚合库 (推荐)** | 集成全部上游 + 个人定制 (VMISS 等)，采用【英文-中文】双语共存检索 | [📲 一键唤醒导入](loon://import?iconset=https%3A%2F%2Fraw.githubusercontent.com%2Fo-ocn%2Ficons%2Fmain%2Floon%2Floon.json) |
+| **🇨🇳 彩色静态旗帜 (双语版)** | 262 款全球国家与地区彩色国旗，【US-美国】100% 双向可搜 | [📲 一键唤醒导入](loon://import?iconset=https%3A%2F%2Fraw.githubusercontent.com%2Fo-ocn%2Ficons%2Fmain%2Floon%2Fcolorful_flags.json) |
+| **🪄 The Magic (双语版)** | 常用主流机场、核心节点与代理策略专用图标 | [📲 一键唤醒导入](loon://import?iconset=https%3A%2F%2Fraw.githubusercontent.com%2Fo-ocn%2Ficons%2Fmain%2Floon%2Fthe_magic.json) |
+| **🎵 离歌图标包 (双语版)** | 离歌自绘应用、流媒体、游戏与机场图标包（TG: @ligeicon） | [📲 一键唤醒导入](loon://import?iconset=https%3A%2F%2Fraw.githubusercontent.com%2Fo-ocn%2Ficons%2Fmain%2Floon%2Fligeicon.json) |
+| **📦 fmz200 图标库 (双语版)** | 包含海量知名 App、金融银行、动漫与实用工具图标 | [📲 一键唤醒导入](loon://import?iconset=https%3A%2F%2Fraw.githubusercontent.com%2Fo-ocn%2Ficons%2Fmain%2Floon%2Ffmz200.json) |
+
+#### 方式二：Loon 客户端内手动添加订阅（推荐，最稳定）
+
+打开 **Loon ->「配置」->「图标」-> 点击右上角「+」**，在 URL 栏中**直接粘贴下方纯净 JSON 链接**即可：
+
+> 💡 **重要提醒**：在 Loon 客户端的输入框内，**只需粘贴以 `.json` 结尾的纯网址**（任选其一即可），切勿把带有前缀的链接整串粘进去，否则会提示 404！
+
+- **🌟 全量聚合库（GitHub Pages 直链，推荐）**：
+  ```text
+  https://o-ocn.github.io/icons/loon/loon.json
+  ```
+- **🌟 全量聚合库（GitHub Raw 直链）**：
+  ```text
+  https://raw.githubusercontent.com/o-ocn/icons/main/loon/loon.json
+  ```
+- **🇨🇳 彩色静态旗帜**：
+  ```text
+  https://o-ocn.github.io/icons/loon/colorful_flags.json
+  ```
+- **🪄 The Magic**：
+  ```text
+  https://o-ocn.github.io/icons/loon/the_magic.json
+  ```
+- **🎵 离歌图标包**：
+  ```text
+  https://o-ocn.github.io/icons/loon/ligeicon.json
+  ```
+- **📦 fmz200 图标库**：
+  ```text
+  https://o-ocn.github.io/icons/loon/fmz200.json
+  ```
 
 ---
 

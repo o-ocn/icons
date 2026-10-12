@@ -3,7 +3,7 @@
   "description": "The Magic 节点、策略组与常用服务图标集，中英文共存，适配 Loon",
   "icons": [
     {
-      "name": "Naiyou",
+      "name": "Naiyou-奶昔",
       "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/the_magic/Naiyou.png"
     },
     {
@@ -19,11 +19,11 @@
       "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/the_magic/AMY.png"
     },
     {
-      "name": "Ytoo1",
+      "name": "Ytoo1-歪兔1",
       "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/the_magic/Ytoo1.png"
     },
     {
-      "name": "Flowercloud",
+      "name": "Flowercloud-花云",
       "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/the_magic/Flowercloud.png"
     },
     {
