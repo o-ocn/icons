@@ -21,12 +21,8 @@
 - **核心组件运行事实**：
   - **精选图标资产**：物理本地库收录 **2,779 个精选图标**，涵盖国家地区旗帜、主流代理软件、数百家机场/服务商、常用国内与国际应用、表情包/动漫、游戏及地标；
   - **个人定制专属图标**：已入库高清 512×512 透明 PNG [`loon/icons/custom/vmiss.png`](loon/icons/custom/vmiss.png)（纯英文 `VMISS` 命名）；
-  - **Loon 订阅文件**：已构建 5 套标准 JSON 订阅配置，100% 格式合法且支持双语检索：
-    1. 全量聚合库：[`loon/loon.json`](loon/loon.json)（2,779 图标）
-    2. 彩色静态旗帜：[`loon/colorful_flags.json`](loon/colorful_flags.json)（262 图标）
-    3. The Magic 经典方圆角：[`loon/the_magic.json`](loon/the_magic.json)（124 图标）
-    4. 离歌图标包精简版：[`loon/ligeicon.json`](loon/ligeicon.json)（877 图标）
-    5. fmz200 图标库精简版：[`loon/fmz200.json`](loon/fmz200.json)（1,515 图标）
+  - **Loon 订阅文件**：专注于维护个人唯一的全量精选聚合主库：
+    - 全量聚合库：[`loon/loon.json`](loon/loon.json)（2,779 图标，100% 格式合法且支持中英双语检索）
   - **导入协议支持**：支持纯净直链手动导入及 iOS Safari 原生 `loon://import?iconset=...` URL Scheme 一键唤醒导入。
 
 ---
@@ -47,13 +43,8 @@
 - [x] **使用文档完善**：更新 [`README.md`](README.md)，提供一键导入唤醒链接、手动订阅地址及规范说明。
 
 ### 实测验证记录
-- **Python JSON 语法校验**：5 套 JSON 文件均经 Python `json.load()` 解析验证，语法 100% 正确；
-- **图标数量与链接完整性**：
-  - `loon.json`: 2,779 项，全量无死链；
-  - `the_magic.json`: 124 项；
-  - `ligeicon.json`: 877 项；
-  - `fmz200.json`: 1,515 项；
-  - `colorful_flags.json`: 262 项；
+- **Python JSON 语法校验**：`loon/loon.json` 经 Python `json.load()` 解析验证，语法 100% 正确；
+- **图标数量与链接完整性**：`loon.json` 共收录 2,779 项，全量无死链；
 - **Git 远端验证**：所有变更均已推送至 GitHub `origin/main`，Commit 记录完整，工作区保持 clean。
 
 ---
@@ -101,10 +92,6 @@
 | 路径 | 宿主 / 仓库 | 用途说明 |
 | :--- | :---: | :--- |
 | `loon/loon.json` | 独立仓 `icons` | 全量聚合主库（2,779 图标，双语检索） |
-| `loon/colorful_flags.json` | 独立仓 `icons` | 画风 C 彩色静态旗帜分库（262 图标） |
-| `loon/the_magic.json` | 独立仓 `icons` | 画风 A The Magic 经典分库（124 图标） |
-| `loon/ligeicon.json` | 独立仓 `icons` | 离歌图标包精选分库（877 图标） |
-| `loon/fmz200.json` | 独立仓 `icons` | fmz200 图标库精选分库（1,515 图标） |
 | `loon/icons/custom/vmiss.png` | 独立仓 `icons` | VMISS 官方高清定制图标（512×512） |
 | `README.md` | 独立仓 `icons` | 仓库对外说明、使用指引与一键唤醒链接 |
 
