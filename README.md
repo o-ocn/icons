@@ -116,11 +116,11 @@
 
 | 图标库名称 | 说明与覆盖范围 | Loon App 一键拉起链接 |
 | :--- | :--- | :---: |
-| **🌟 Loon 个人全量聚合库 (推荐)** | 集成全部上游 + 个人定制 (VMISS 等)，采用【英文-中文】双语共存检索 | [📲 一键唤醒导入](loon://import?iconset=https%3A%2F%2Fraw.githubusercontent.com%2Fo-ocn%2Ficons%2Fmain%2Floon%2Floon.json) |
+| **🌟 Loon 个人全量聚合库 (推荐)** | 精简优化版（共 2,779 款），机场统一采用 The Magic 方圆角，国旗采用扁平正方形贴片，剔除 210 款纯重复文件 | [📲 一键唤醒导入](loon://import?iconset=https%3A%2F%2Fraw.githubusercontent.com%2Fo-ocn%2Ficons%2Fmain%2Floon%2Floon.json) |
 | **🇨🇳 彩色静态旗帜 (双语版)** | 262 款全球国家与地区彩色国旗，【US-美国】100% 双向可搜 | [📲 一键唤醒导入](loon://import?iconset=https%3A%2F%2Fraw.githubusercontent.com%2Fo-ocn%2Ficons%2Fmain%2Floon%2Fcolorful_flags.json) |
-| **🪄 The Magic (双语版)** | 常用主流机场、核心节点与代理策略专用图标 | [📲 一键唤醒导入](loon://import?iconset=https%3A%2F%2Fraw.githubusercontent.com%2Fo-ocn%2Ficons%2Fmain%2Floon%2Fthe_magic.json) |
-| **🎵 离歌图标包 (双语版)** | 离歌自绘应用、流媒体、游戏与机场图标包（TG: @ligeicon） | [📲 一键唤醒导入](loon://import?iconset=https%3A%2F%2Fraw.githubusercontent.com%2Fo-ocn%2Ficons%2Fmain%2Floon%2Fligeicon.json) |
-| **📦 fmz200 图标库 (双语版)** | 包含海量知名 App、金融银行、动漫与实用工具图标 | [📲 一键唤醒导入](loon://import?iconset=https%3A%2F%2Fraw.githubusercontent.com%2Fo-ocn%2Ficons%2Fmain%2Floon%2Ffmz200.json) |
+| **🪄 The Magic (双语版)** | 常用主流机场、核心节点与代理策略专用图标（124 款经典方圆角） | [📲 一键唤醒导入](loon://import?iconset=https%3A%2F%2Fraw.githubusercontent.com%2Fo-ocn%2Ficons%2Fmain%2Floon%2Fthe_magic.json) |
+| **🎵 离歌图标包 (精炼双语版)** | 自绘应用、流媒体、游戏与精选机场（877 款，已剔除与 The Magic 重复项及多余变体） | [📲 一键唤醒导入](loon://import?iconset=https%3A%2F%2Fraw.githubusercontent.com%2Fo-ocn%2Ficons%2Fmain%2Floon%2Fligeicon.json) |
+| **📦 fmz200 图标库 (精炼双语版)** | 包含海量 App、金融银行、动漫与实用工具（1,515 款，已剔除照抄 The Magic 的 92 个重复文件） | [📲 一键唤醒导入](loon://import?iconset=https%3A%2F%2Fraw.githubusercontent.com%2Fo-ocn%2Ficons%2Fmain%2Floon%2Ffmz200.json) |
 
 #### 方式二：Loon 客户端内手动添加订阅（推荐，最稳定）
 
