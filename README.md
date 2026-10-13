@@ -116,7 +116,7 @@
 
 | 图标库名称 | 说明与覆盖范围 | Loon App 一键拉起链接 |
 | :--- | :--- | :---: |
-| **🌟 Loon 个人全量聚合库 (推荐)** | 精简优化版（共 2,779 款），机场统一采用 The Magic 方圆角，国旗采用扁平正方形贴片，剔除 210 款纯重复文件 | [📲 一键唤醒导入](https://o-ocn.github.io/icons/openloon.html) |
+| **🌟 Loon 个人全量聚合库 (推荐)** | 精简优化版（共 2,782 款），机场统一采用 The Magic 方圆角，国旗采用扁平正方形贴片，集成 VMISS、GLaDOS、素心 等高品质专属定制图标 | [📲 一键唤醒导入](https://o-ocn.github.io/icons/openloon.html) |
 
 #### 方式二：Loon 客户端内手动添加订阅（推荐，最稳定）
 
@@ -141,8 +141,10 @@
 
 ```ini
 [Proxy Group]
-# 引用本库专属定制图标 (VMISS)
+# 引用本库专属定制图标 (VMISS / GLaDOS / 素心)
 VMISS = select, 节点1, img-url = https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/custom/vmiss.png
+GLaDOS = select, 节点1, img-url = https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/custom/glados.png
+素心 = select, 节点1, img-url = https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/custom/suxin.png
 
 # 引用国旗图标 (如美国、日本)
 美国节点 = select, 节点1, img-url = https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/colorful_flags/US.png

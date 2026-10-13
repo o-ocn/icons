@@ -1,10 +1,26 @@
 {
   "name": "Loon 个人全量聚合图标库 (中英双语)",
-  "description": "集成彩色静态旗帜、The Magic、离歌图标包、fmz200 及个人定制专属图标（VMISS 等），中英文共存检索",
+  "description": "集成彩色静态旗帜、The Magic、离歌图标包、fmz200 及个人定制专属图标（VMISS、GLaDOS、素心 等），中英文共存检索",
   "icons": [
     {
       "name": "VMISS",
       "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/custom/vmiss.png"
+    },
+    {
+      "name": "SuXin-素心",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/custom/suxin.png"
+    },
+    {
+      "name": "SuXin-Dark-素心暗黑",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/custom/suxin_dark.png"
+    },
+    {
+      "name": "GLaDOS-GLaDOS机场",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/custom/glados.png"
+    },
+    {
+      "name": "GLaDOS-Classic-GLaDOS经典蓝云",
+      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/custom/glados_classic.png"
     },
     {
       "name": "AD-安道尔",
@@ -6237,10 +6253,6 @@
     {
       "name": "github_18-代码库18",
       "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/fmz200/apps/github_18.png"
-    },
-    {
-      "name": "GlaDos-GLaDOS机场",
-      "url": "https://raw.githubusercontent.com/o-ocn/icons/main/loon/icons/fmz200/apps/GlaDos.png"
     },
     {
       "name": "GMedia-G媒体库",
