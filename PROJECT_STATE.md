@@ -16,10 +16,13 @@
 ---
 
 ## 二、当前状态（做到哪里 / 运行事实）
-- **当前阶段**：生产稳定 / 阶段完成闭环
+- **当前阶段**：生产稳定 / 自有域名与全自动部署已全面闭环 (2026-10-19)
 - **当前版本与分支**：分支 `main`，远端同步状态零差异（与 `origin/main` 一致，工作树 clean）
 - **核心组件运行事实**：
-  - **精选图标资产**：物理本地库收录 **2,782 个精选图标**，涵盖国家地区旗帜、主流代理软件、数百家机场/服务商、常用国内与国际应用、表情包/动漫、游戏及地标；
+  - **自有域名生产网关**：`https://icons.o-ous.com/` 已正式上线，由 Cloudflare Pages + Worker Custom Domain 承载，Google Trust Services 专属边缘 SSL 证书，全站启用全局 CORS (`Access-Control-Allow-Origin: *`) 与静态资产 7 天长效缓存；
+  - **Web 图库交互事实**：`index.html` 部署至生产环境，支持中英文即时搜索、分类过滤、PNG 实时预览与醒目的 **3 按钮直链体系**（首选 `⭐ 复制自有直链 (推荐)`、次选 `🐙 GitHub 备用`、辅助 `⚡ jsDelivr 备用`）；
+  - **CI/CD 全自动化闭环事实**：`.github/workflows/deploy-pages.yml`，在 push main 时监测 `icons/**`、`data/**`、`index.html`、`_headers` 自动通过 Wrangler Direct Upload 部署生产 Pages；已配置 Fail-Stop 门禁与加密 GitHub Secrets（`CLOUDFLARE_API_TOKEN` 与 `CLOUDFLARE_ACCOUNT_ID`）；
+  - **精选图标资产**：物理本地库收录 **2,782+ 个精选图标**，涵盖国家地区旗帜、主流代理软件、数百家机场/服务商、常用国内与国际应用、表情包/动漫、游戏及地标，并补充了 `loon.png`、`clash.png` 与 `icons.svg`；
   - **个人定制专属图标**：已入库高清 512×512 PNG，保存在 `loon/icons/custom/`：
     - [`vmiss.png`](loon/icons/custom/vmiss.png)（VMISS 官方透明 Logo）
     - [`glados.png`](loon/icons/custom/glados.png)（GLaDOS 官方后台 PWA 钛黑翠绿雷达图标）
@@ -50,11 +53,21 @@
   - 动漫/表情包全量统一增加中文前缀（如 `Doraemon-哆啦A梦`、`Shin-chan-蜡笔小新`、`Pokemon-宝可梦`、`Menhera-表情包`）；
   - 严格保持 `VMISS` 纯英文不加中文后缀；
 - [x] **404 导入问题排查与修复**：彻底废弃已失效的 `https://www.nsloon.app/openloon/...` 协议，更新为原生 URL Scheme 与纯净 `.json` 直链；
-- [x] **使用文档完善**：更新 [`README.md`](README.md)，提供一键导入唤醒链接、手动订阅地址及规范说明。
+- [x] **使用文档完善**：更新 [`README.md`](README.md)，提供一键导入唤醒链接、手动订阅地址及规范说明；
+- [x] **`icons.o-ous.com` 自有域名直链优先化与 3 按钮直链体系落地 (2026-10-19)**：
+  - 将 `icons.o-ous.com` 升级为图库首选直链，界面醒目提供高亮推荐复制按钮 `⭐ 复制自有直链 (推荐)`，并保留 `🐙 GitHub 备用` 与 `⚡ jsDelivr 备用` 辅助按钮；
+  - 补充 `loon.png`、`clash.png` 与 `icons.svg` 资产并在 `data/icons.json` 与 `README.md` 中建档；
+  - 经 Headless Chrome 无头浏览器实测渲染验证（`icons_gallery_new.png`），搜索、分类、预览与直链复制功能 100% 正常；
+- [x] **GitHub Actions → Cloudflare Pages 自动部署与 Fail-Stop 闭环 (2026-10-19)**：
+  - 编写 `.github/workflows/deploy-pages.yml`（提交 `1b43546`），在 push main（监测 `icons/**`、`data/**`、`index.html`、`_headers`）时自动部署；
+  - 修复此前缺少凭据伪装成功的假绿缺陷，实施 fail-stop 门禁（缺少凭据立即 `exit 1` 中断）；
+  - 成功注入 LibSodium 加密 GitHub Secrets（`CLOUDFLARE_API_TOKEN` 与 `CLOUDFLARE_ACCOUNT_ID`），真实 Actions 运行 [Run 39220136085](https://github.com/o-ocn/icons/actions/runs/39220136085) 绿色成功；
+  - Cloudflare Pages 自动生成部署记录 `f867e3b5`（`2026-10-19T08:04:31Z`），端到端实测 HTTP/2 200 验证通过。
 
 ### 实测验证记录
 - **Python JSON 语法校验**：`loon/loon.json` 经 Python `json.load()` 解析验证，语法 100% 正确；
 - **图标数量与链接完整性**：`loon.json` 共收录 2,782 项，全量无死链；
+- **端到端 HTTP/2 探测**：`https://icons.o-ous.com/` 返回 200 OK，PNG/SVG 图标资源直链全部正常，CORS 正常；
 - **Git 远端验证**：所有变更均已推送至 GitHub `origin/main`，Commit 记录完整，工作区保持 clean。
 
 ---
@@ -66,7 +79,9 @@
 - **检索命名采用【原英文/原拼音-中文】共存** -> **原因**：若直接用中文替换原英文，用户用拼音或习惯的英文关键字将无法搜出图标；双语共存（如 `youkushipin-优酷视频`、`US-美国`）确保中英文均能精准命中；
 - **VMISS 保持纯英文** -> **原因**：系用户 VPS 商家名，用户明确要求不需要中文后缀；
 - **本地化物理存储所有上游图标** -> **原因**：避免上游仓库删库、重命名或网络阻断导致用户本地 Loon 图标大面积失效或 404；
-- **404 导入采用原生 Scheme 与纯净直链** -> **原因**：旧版 `nsloon.app` 网页跳转中间件已失效，Loon 原生已支持 `loon://import?iconset=<URL>` 以及直接在输入框粘贴 `.json` 直链。
+- **404 导入采用原生 Scheme 与纯净直链** -> **原因**：旧版 `nsloon.app` 网页跳转中间件已失效，Loon 原生已支持 `loon://import?iconset=<URL>` 以及直接在输入框粘贴 `.json` 直链；
+- **自有域名 `icons.o-ous.com` 作为图标库首选 CDN 直链** -> **原因**：此前依赖 GitHub Raw 或 jsDelivr，国内访问经常受到阻断、污染或延迟较高；自有域名经 Cloudflare Anycast 全球边缘缓存加速，具有最稳定的访问性能与品牌一致性；
+- **采用 Direct Upload 模式由 GitHub Actions 驱动 Pages 部署** -> **原因**：Pages 直连 Git 仓库在单仓库多目录或需要前置条件判断时灵活性不足；通过 GitHub Actions 在推送 main 时调用 `wrangler pages deploy` 最为轻量、可控，并能与 CI 门禁紧密结合。
 
 ### 2. 已尝试但已放弃的方案（★ 严禁后续 AI 重复踩坑）
 - **放弃方案 1：使用 `https://www.nsloon.app/openloon/import?iconset=...` 网页唤醒协议**
@@ -92,8 +107,13 @@
 ---
 
 ## 六、下一步计划（从哪里继续 / 具体工作）
-1. **后续新图标增补管道**：若用户有未收录的新机场、私有节点或定制应用图标需要入库，接手 AI 直接将处理好的 512×512 透明 PNG 放入 `loon/icons/custom/`，在 `loon/loon.json` 中登记【原名-中文】（若为 VPS 商家名则按用户指示保留纯英文），提交并推送；
-2. **保持工作区 clean**：日常维护不增加冗余文档，以本文件与实际资产为唯一事实源。
+1. **全自动新图标增补极简流程**：
+   - 将 512×512 透明 PNG 放入 `icons/` 目录（如 `icons/example.png`）；
+   - 在 `data/icons.json` 中追加对应图标元数据条目（name / tags / category）；
+   - 执行 `git commit` 并 `git push origin main`；
+   - **GitHub Actions 自动触发 `deploy-pages.yml`，15 秒内自动发布到 Cloudflare Pages，`https://icons.o-ous.com/` 立即获得最新图标与复制直链**；
+2. **Loon 专属分类维护**：若涉及 Loon 专属定制图标，同步将处理好的 512×512 透明 PNG 放入 `loon/icons/custom/`，在 `loon/loon.json` 中登记【原名-中文】（VPS 商家名依指令保留纯英文），提交并推送；
+3. **保持工作区 clean**：日常维护不增加冗余文档，以本文件与实际资产为唯一事实源。
 
 ---
 
@@ -101,14 +121,15 @@
 ### 1. 关键文件与配置清单
 | 路径 | 宿主 / 仓库 | 用途说明 |
 | :--- | :---: | :--- |
-| `loon/loon.json` | 独立仓 `icons` | 全量聚合主库（2,782 图标，双语检索） |
-| `loon/icons/custom/vmiss.png` | 独立仓 `icons` | VMISS 官方高清定制图标（512×512 透明 PNG） |
-| `loon/icons/custom/glados.png` | 独立仓 `icons` | GLaDOS 官方后台 PWA 钛黑翠绿雷达图标（512×512） |
-| `loon/icons/custom/glados_classic.png` | 独立仓 `icons` | GLaDOS 经典蓝云声波白底方圆角图标（512×512） |
-| `loon/icons/custom/suxin.png` | 独立仓 `icons` | 素心 Network 官方白底方圆角绅士西装图标（512×512） |
-| `loon/icons/custom/suxin_dark.png` | 独立仓 `icons` | 素心 Network 黑曜石深色绅士西装图标（512×512） |
+| `icons/` | 独立仓 `icons` | 核心图标文件目录（全量小写化资产） |
+| `data/icons.json` | 独立仓 `icons` | Web 图库图标元数据索引 |
+| `index.html` | 独立仓 `icons` | 生产 Web 图库前端（3 按钮直链交互体系） |
+| `.github/workflows/deploy-pages.yml` | 独立仓 `icons` | GitHub Actions → Cloudflare Pages 自动部署工作流（含 fail-stop 门禁） |
+| `loon/loon.json` | 独立仓 `icons` | Loon 全量聚合主库（2,782 图标，双语检索） |
+| `loon/icons/custom/` | 独立仓 `icons` | 个人定制服务与机场专属高清图标（512×512 透明 PNG） |
 | `README.md` | 独立仓 `icons` | 仓库对外说明、使用指引与一键唤醒链接 |
 
 ### 2. 安全与凭据管理
-- 本项目为公开纯静态资源仓库，**绝无任何 Secret、Token 或认证密钥**；
-- 严禁在任何说明文档、配置或脚本中混入个人敏感信息。
+- 本项目为公开纯静态资源仓库，**代码与文档中绝无任何 Secret、Token 或认证密钥**；
+- 部署所需的 `CLOUDFLARE_API_TOKEN` 与 `CLOUDFLARE_ACCOUNT_ID` 仅加密保存在 GitHub Actions Secrets 中，权限仅限 `Pages: Edit`，禁止在任何公开文件、提交或日志中回显。
+
