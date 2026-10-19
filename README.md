@@ -3,19 +3,23 @@
 个人精心收集与整理的高清网站图标库（Web Favicons & Logos）。  
 通过 **GitHub Pages** 与 **jsDelivr CDN** 全球分发，专为新标签页快捷方式、博客导航、个人主页及书签工具提供无跨域限制（CORS-free）的高清直链。
 
-🌐 **在线图库导航**：[https://o-ocn.github.io/icons/](https://o-ocn.github.io/icons/)
+🌐 **在线图库导航**：[https://icons.o-ous.com/](https://icons.o-ous.com/)（备用镜像：[https://o-ocn.github.io/icons/](https://o-ocn.github.io/icons/)）
 
 ---
 
 ## ⚡ CDN 直链调用方式
 
-每个图标均提供两种公网直链访问方式：
+每个图标均提供公网直链访问方式（推荐使用自有域名，同时保留 GitHub Pages 与 jsDelivr 备用）：
 
-1. **GitHub Pages 直链**（海外及国际网络首选，永远同步最新仓库）：
+1. **自有域名直链（★ 推荐首选，Cloudflare Anycast 边缘高速 CDN）**：
+   ```text
+   https://icons.o-ous.com/icons/{filename}
+   ```
+2. **GitHub Pages 备用直链**（海外及国际网络备用）：
    ```text
    https://o-ocn.github.io/icons/icons/{filename}
    ```
-2. **jsDelivr CDN 直链**（国内访问更稳定，全球边缘节点缓存）：
+3. **jsDelivr CDN 备用直链**（全球镜像缓存备用）：
    ```text
    https://cdn.jsdelivr.net/gh/o-ocn/icons@main/icons/{filename}
    ```
@@ -24,9 +28,12 @@
 
 ## 📋 图标总览与备注表
 
-| 预览 | 名称 | 分辨率 / 格式 | 官方网址 | Pages 直链 | jsDelivr CDN 直链 | 备注说明 |
+| 预览 | 名称 | 分辨率 / 格式 | 官方网址 | 自有直链 (推荐) | 备用直链 (Pages / CDN) | 备注说明 |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| <img src="icons/vmiss.png" width="40" height="40" alt="VMISS" /> | **VMISS** | 512x512 `PNG` | [app.vmiss.com](https://app.vmiss.com/) | [🔗 直链](https://o-ocn.github.io/icons/icons/vmiss.png) | [⚡ CDN](https://cdn.jsdelivr.net/gh/o-ocn/icons@main/icons/vmiss.png) | VMISS 官方标志 Logo |
+| <img src="icons/loon.png" width="40" height="40" alt="Loon" /> | **Loon** | 512x512 `PNG` | [nsloon.com](https://nsloon.com/) | [⭐ 自有直链](https://icons.o-ous.com/icons/loon.png) | [🔗 Pages](https://o-ocn.github.io/icons/icons/loon.png) / [⚡ CDN](https://cdn.jsdelivr.net/gh/o-ocn/icons@main/icons/loon.png) | Loon 官方应用图标（热气球标志） |
+| <img src="icons/clash.png" width="40" height="40" alt="Clash" /> | **Clash / Mihomo** | 512x512 `PNG` | [github.com](https://github.com/MetaCubeX/mihomo) | [⭐ 自有直链](https://icons.o-ous.com/icons/clash.png) | [🔗 Pages](https://o-ocn.github.io/icons/icons/clash.png) / [⚡ CDN](https://cdn.jsdelivr.net/gh/o-ocn/icons@main/icons/clash.png) | Mihomo / Clash 官方客户端图标（小猫标志） |
+| <img src="icons/icons.svg" width="40" height="40" alt="Icons CDN" /> | **Icons CDN** | 矢量 `SVG` | [icons.o-ous.com](https://icons.o-ous.com/) | [⭐ 自有直链](https://icons.o-ous.com/icons/icons.svg) | [🔗 Pages](https://o-ocn.github.io/icons/icons/icons.svg) / [⚡ CDN](https://cdn.jsdelivr.net/gh/o-ocn/icons@main/icons/icons.svg) | Icons 资产图库官方网格应用矢量图标 |
+| <img src="icons/vmiss.png" width="40" height="40" alt="VMISS" /> | **VMISS** | 512x512 `PNG` | [app.vmiss.com](https://app.vmiss.com/) | [⭐ 自有直链](https://icons.o-ous.com/icons/vmiss.png) | [🔗 Pages](https://o-ocn.github.io/icons/icons/vmiss.png) / [⚡ CDN](https://cdn.jsdelivr.net/gh/o-ocn/icons@main/icons/vmiss.png) | VMISS 官方标志 Logo |
 | <img src="icons/cloudflare-sentinel.png" width="40" height="40" alt="Cloudflare Sentinel" /> | **Cloudflare Sentinel** | 512x512 `PNG` | [www.cloudflare.com](https://www.cloudflare.com/) | [🔗 直链](https://o-ocn.github.io/icons/icons/cloudflare-sentinel.png) | [⚡ CDN](https://cdn.jsdelivr.net/gh/o-ocn/icons@main/icons/cloudflare-sentinel.png) | Cloudflare Sentinel 外部监控专属官方双色橙云 Logo |
 | <img src="icons/chatgpt.png" width="40" height="40" alt="ChatGPT" /> | **ChatGPT** | 512x512 `PNG` | [chatgpt.com](https://chatgpt.com/) | [🔗 直链](https://o-ocn.github.io/icons/icons/chatgpt.png) | [⚡ CDN](https://cdn.jsdelivr.net/gh/o-ocn/icons@main/icons/chatgpt.png) | OpenAI ChatGPT 官方 App Store 图标（白底圆角） |
 | <img src="icons/deepseek.png" width="40" height="40" alt="DeepSeek" /> | **DeepSeek** | 512x512 `PNG` | [chat.deepseek.com](https://chat.deepseek.com/) | [🔗 直链](https://o-ocn.github.io/icons/icons/deepseek.png) | [⚡ CDN](https://cdn.jsdelivr.net/gh/o-ocn/icons@main/icons/deepseek.png) | DeepSeek 深度求索官方 App Store 图标（白底蓝鲸圆角） |

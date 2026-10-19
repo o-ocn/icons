@@ -22,6 +22,17 @@
     "updatedAt": "2026-10-19"
   },
   {
+    "id": "icons",
+    "name": "Icons CDN",
+    "filename": "icons.svg",
+    "resolution": "矢量",
+    "format": "SVG",
+    "site": "https://icons.o-ous.com/",
+    "category": "工具",
+    "notes": "Icons 资产图库官方网格应用矢量图标",
+    "updatedAt": "2026-10-19"
+  },
+  {
     "id": "vmiss",
     "name": "VMISS",
     "filename": "vmiss.png",

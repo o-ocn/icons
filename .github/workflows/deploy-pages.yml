@@ -1,0 +1,40 @@
+name: Deploy Icons to Cloudflare Pages
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'icons/**'
+      - 'data/**'
+      - 'index.html'
+      - '_headers'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Deploy to Cloudflare Pages
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID || '18fa061db5a3468e2b7b94f73412630e' }}
+        run: |
+          if [ -z "$CLOUDFLARE_API_TOKEN" ]; then
+            echo "::warning ::CLOUDFLARE_API_TOKEN is not configured in repository Secrets. Cloudflare Pages auto-deployment skipped."
+            echo "::notice ::To enable automated deployment on GitHub push, add CLOUDFLARE_API_TOKEN (with Pages:Edit permission) to repository Secrets."
+          else
+            echo "Deploying icons repository to Cloudflare Pages project 'icons'..."
+            npx wrangler pages deploy . --project-name icons --commit-dirty=true
+            echo "Cloudflare Pages deployment for icons succeeded."
+          fi

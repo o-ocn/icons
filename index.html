@@ -214,9 +214,9 @@
     }
 
     .btn-group {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 8px;
+      display: flex;
+      flex-direction: column;
+      gap: 7px;
       margin-top: auto;
     }
 
@@ -232,7 +232,7 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      gap: 5px;
+      gap: 6px;
       transition: all 0.2s ease;
     }
 
@@ -243,6 +243,39 @@
 
     .btn:active {
       transform: scale(0.97);
+    }
+
+    .btn-primary {
+      background: linear-gradient(135deg, rgba(88, 166, 255, 0.18), rgba(88, 166, 255, 0.08));
+      border: 1px solid rgba(88, 166, 255, 0.45);
+      color: #79c0ff;
+      font-weight: 600;
+      padding: 9px 12px;
+    }
+
+    .btn-primary:hover {
+      background: linear-gradient(135deg, rgba(88, 166, 255, 0.32), rgba(88, 166, 255, 0.16));
+      border-color: #58a6ff;
+      color: #fff;
+      box-shadow: 0 0 12px rgba(88, 166, 255, 0.25);
+    }
+
+    .btn-sub-group {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 6px;
+    }
+
+    .btn-sub {
+      font-size: 0.74rem;
+      padding: 6px 8px;
+      color: var(--text-muted);
+      background: rgba(255, 255, 255, 0.03);
+    }
+
+    .btn-sub:hover {
+      color: var(--text);
+      background: var(--btn-hover);
     }
 
     .toast {
@@ -288,8 +321,13 @@
 <body>
 
   <header>
+    <div style="display: flex; justify-content: center; gap: 10px; margin-bottom: 22px; flex-wrap: wrap;">
+      <a href="https://rules.o-ous.com" style="color: var(--text-muted); font-size: 0.82rem; text-decoration: none; padding: 4px 12px; border-radius: 999px; background: rgba(255,255,255,0.04); border: 1px solid var(--card-border); transition: all 0.2s;">← 规则体系门户</a>
+      <a href="https://loon.rules.o-ous.com" style="color: var(--text-muted); font-size: 0.82rem; text-decoration: none; padding: 4px 12px; border-radius: 999px; background: rgba(255,255,255,0.04); border: 1px solid var(--card-border); transition: all 0.2s;">🎈 Loon 规则中心</a>
+      <a href="https://monitor.o-ous.com" style="color: var(--text-muted); font-size: 0.82rem; text-decoration: none; padding: 4px 12px; border-radius: 999px; background: rgba(255,255,255,0.04); border: 1px solid var(--card-border); transition: all 0.2s;">📊 系统监控枢纽</a>
+    </div>
     <h1 class="title">Web Icons Gallery</h1>
-    <p class="subtitle">个人收集与整理的高清网站图标库，基于 GitHub Pages & CDN 全球直链加速</p>
+    <p class="subtitle">个人精选高清网站与分流客户端图标库 · 优先基于 icons.o-ous.com 边缘 CDN 全球直链加速</p>
     <div class="search-bar-wrap">
       <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
         <circle cx="11" cy="11" r="8"></circle>
@@ -361,6 +399,7 @@
       }
 
       list.forEach(item => {
+        const customUrl = `https://icons.o-ous.com/icons/${item.filename}`;
         const pagesUrl = `https://o-ocn.github.io/icons/icons/${item.filename}`;
         const cdnUrl = `https://cdn.jsdelivr.net/gh/o-ocn/icons@main/icons/${item.filename}`;
         const localImgPath = `icons/${item.filename}`;
@@ -383,17 +422,30 @@
             🌐 ${item.site.replace(/^https?:\/\//, "").replace(/\/$/, "")}
           </a>
           <div class="btn-group">
-            <button class="btn btn-pages" data-url="${pagesUrl}">🔗 复制直链</button>
-            <button class="btn btn-cdn" data-url="${cdnUrl}">⚡ 复制 CDN</button>
+            <button class="btn btn-primary btn-custom" data-url="${customUrl}" title="自有域名直链 (推荐)">
+              ⭐ 复制自有直链 <span style="font-size:0.7rem; opacity:0.85; margin-left:auto;">推荐</span>
+            </button>
+            <div class="btn-sub-group">
+              <button class="btn btn-sub btn-pages" data-url="${pagesUrl}" title="GitHub Pages 备用直链">
+                🐙 GitHub 备用
+              </button>
+              <button class="btn btn-sub btn-cdn" data-url="${cdnUrl}" title="jsDelivr CDN 备用直链">
+                ⚡ jsDelivr 备用
+              </button>
+            </div>
           </div>
         `;
 
+        card.querySelector(".btn-custom").addEventListener("click", () => {
+          copyToClipboard(customUrl, "自有域名直链 (icons.o-ous.com)");
+        });
+
         card.querySelector(".btn-pages").addEventListener("click", () => {
-          copyToClipboard(pagesUrl, "GitHub Pages 直链");
+          copyToClipboard(pagesUrl, "GitHub Pages 备用直链");
         });
 
         card.querySelector(".btn-cdn").addEventListener("click", () => {
-          copyToClipboard(cdnUrl, "jsDelivr CDN 直链 (国内高速)");
+          copyToClipboard(cdnUrl, "jsDelivr CDN 备用直链");
         });
 
         grid.appendChild(card);
