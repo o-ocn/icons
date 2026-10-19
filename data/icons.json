@@ -1,5 +1,27 @@
 [
   {
+    "id": "loon",
+    "name": "Loon",
+    "filename": "loon.png",
+    "resolution": "512x512",
+    "format": "PNG",
+    "site": "https://nsloon.com/",
+    "category": "工具",
+    "notes": "Loon 官方应用图标（热气球标志）",
+    "updatedAt": "2026-10-19"
+  },
+  {
+    "id": "clash",
+    "name": "Clash / Mihomo",
+    "filename": "clash.png",
+    "resolution": "512x512",
+    "format": "PNG",
+    "site": "https://github.com/MetaCubeX/mihomo",
+    "category": "工具",
+    "notes": "Mihomo / Clash 官方客户端图标（小猫标志）",
+    "updatedAt": "2026-10-19"
+  },
+  {
     "id": "vmiss",
     "name": "VMISS",
     "filename": "vmiss.png",
