@@ -44,6 +44,17 @@
     "updatedAt": "2026-09-26"
   },
   {
+    "id": "taipei101",
+    "name": "Taipei101",
+    "filename": "taipei101.png",
+    "resolution": "512x512",
+    "format": "PNG",
+    "site": "https://vps.taipei/",
+    "category": "VPS / 云计算",
+    "notes": "Taipei101 IaaS 官方品牌矢量 Logo",
+    "updatedAt": "2026-11-16"
+  },
+  {
     "id": "cloudflare-sentinel",
     "name": "Cloudflare Sentinel",
     "filename": "cloudflare-sentinel.png",
