@@ -16,12 +16,12 @@
 ---
 
 ## 二、当前状态（做到哪里 / 运行事实）
-- **当前阶段**：生产稳定 / 自有域名与全自动部署已全面闭环 (2026-10-19)
+- **当前阶段**：生产稳定 / 自有域名与全自动部署已全面闭环 (2026-11-21)
 - **当前版本与分支**：分支 `main`，远端同步状态零差异（与 `origin/main` 一致，工作树 clean）
 - **核心组件运行事实**：
-  - **自有域名生产网关**：`https://icons.o-ous.com/` 已正式上线，由 Cloudflare Pages + Worker Custom Domain 承载，Google Trust Services 专属边缘 SSL 证书，全站启用全局 CORS (`Access-Control-Allow-Origin: *`) 与静态资产 7 天长效缓存；
-  - **Web 图库交互事实**：`index.html` 部署至生产环境，支持中英文即时搜索、分类过滤、PNG 实时预览与醒目的 **3 按钮直链体系**（首选 `⭐ 复制自有直链 (推荐)`、次选 `🐙 GitHub 备用`、辅助 `⚡ jsDelivr 备用`）；
-  - **CI/CD 全自动化闭环事实**：`.github/workflows/deploy-pages.yml`，在 push main 时监测 `icons/**`、`data/**`、`index.html`、`_headers` 自动通过 Wrangler Direct Upload 部署生产 Pages；已配置 Fail-Stop 门禁与加密 GitHub Secrets（`CLOUDFLARE_API_TOKEN` 与 `CLOUDFLARE_ACCOUNT_ID`）；
+  - **自有域名生产网关**：`https://icons.o-ous.com/` 已正式上线，由 Cloudflare Pages + Worker Custom Domain 承载，Google Trust Services 专属边缘 SSL 证书，全站启用全局 CORS (`Access-Control-Allow-Origin: *`) 与静态资产 7 天长效缓存；同时按 `README.md` 保留 GitHub Pages (`https://o-ocn.github.io/icons/`) 作为备用入口；
+  - **Web 图库交互事实**：`index.html` 部署至生产环境，支持中英文即时搜索、分类过滤、PNG 实时预览与醒目的 **3 按钮直链体系**（首选 `⭐ 复制自有直链 (推荐)`、次选 `🐙 GitHub 备用`、辅助 `⚡ jsDelivr 备用`）；2026-11-16 新增并精修 `icons/taipei101.png`；
+  - **CI/CD 全自动化闭环事实**：`.github/workflows/deploy-pages.yml`，在 push main 时监测 `icons/**`、`data/**`、`loon/**`、`index.html`、`openloon.html`、`_headers` 自动通过 Wrangler Direct Upload 部署生产 Pages；已配置 Fail-Stop 门禁与加密 GitHub Secrets（`CLOUDFLARE_API_TOKEN` 与 `CLOUDFLARE_ACCOUNT_ID`）；
   - **精选图标资产**：物理本地库收录 **2,782+ 个精选图标**，涵盖国家地区旗帜、主流代理软件、数百家机场/服务商、常用国内与国际应用、表情包/动漫、游戏及地标，并补充了 `loon.png`、`clash.png` 与 `icons.svg`；
   - **个人定制专属图标**：已入库高清 512×512 PNG，保存在 `loon/icons/custom/`：
     - [`vmiss.png`](loon/icons/custom/vmiss.png)（VMISS 官方透明 Logo）
@@ -63,10 +63,14 @@
   - 修复此前缺少凭据伪装成功的假绿缺陷，实施 fail-stop 门禁（缺少凭据立即 `exit 1` 中断）；
   - 成功注入 LibSodium 加密 GitHub Secrets（`CLOUDFLARE_API_TOKEN` 与 `CLOUDFLARE_ACCOUNT_ID`），真实 Actions 运行 [Run 39220136085](https://github.com/o-ocn/icons/actions/runs/39220136085) 绿色成功；
   - Cloudflare Pages 自动生成部署记录 `f867e3b5`（`2026-10-19T08:04:31Z`），端到端实测 HTTP/2 200 验证通过。
+- [x] **Taipei101 品牌图标入库 (2026-11-16)**：新增并精修 `icons/taipei101.png` 双色圆形徽标，同步登记至 `data/icons.json`（提交 `0edb17a`、`eac6fe3`）。
+- [x] **`loon/loon.json` 编码坏链修复与 Pages 触发覆盖补全 (2026-11-21)**：
+  - 修复 `applefitness+-苹果健身` 与 `oneplus1+-一加手机` 两条因文件名含字面 `%2B` 导致的 404 坏链（URL 编码为 `%252B`），并对清单内 6 条含中文 `_副本` 的路径统一百分号编码；全量 2,782 条路径 100% 通过磁盘文件存在性与纯 ASCII URI 校验，实际 HTTP GET 实测两条目标链接均返回 `200 image/png` 且 PNG 魔数合法；
+  - 为 `.github/workflows/deploy-pages.yml` 补全 `loon/**` 与 `openloon.html` 触发路径，按 `README.md` 保留 GitHub Pages 备用入口。
 
 ### 实测验证记录
-- **Python JSON 语法校验**：`loon/loon.json` 经 Python `json.load()` 解析验证，语法 100% 正确；
-- **图标数量与链接完整性**：`loon.json` 共收录 2,782 项，全量无死链；
+- **Python JSON 语法与全量路径校验**：`loon/loon.json` 2,782 项 100% 语法合法、纯 ASCII URI 且与本地物理文件一一对应（0 死链）；
+- **HTTP GET 实测（2026-11-21）**：`applefitness%252B.png`（16,825 B）与 `oneplus1%252B.png`（8,264 B）均返回 `HTTP 200 image/png` 且 PNG 魔数校验通过；
 - **端到端 HTTP/2 探测**：`https://icons.o-ous.com/` 返回 200 OK，PNG/SVG 图标资源直链全部正常，CORS 正常；
 - **Git 远端验证**：所有变更均已推送至 GitHub `origin/main`，Commit 记录完整，工作区保持 clean。
 

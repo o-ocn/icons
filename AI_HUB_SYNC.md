@@ -2,8 +2,8 @@
 
 > 📌 **统一入口声明**：本项目采用本文件作为向 `AI-Project-Hub` 提交状态同步与索引更新的**标准入口文件**。  
 > 存放位置：**存放在项目代码工程根目录**。  
-> ⏱ **最近同步单更新日期**：2026-10-19<br/>
-> 🔎 **最新调查补充**：`icons.o-ous.com` 自有域名直链体系与 3 按钮交互上线；GitHub Actions → Cloudflare Pages 自动部署与 fail-stop 门禁闭环已验证完成。详细实际成果与事实状态见唯一事实源 [PROJECT_STATE.md](PROJECT_STATE.md)。
+> ⏱ **最近同步单更新日期**：2026-11-21<br/>
+> 🔎 **最新调查补充**：修复 `loon/loon.json` 中 Apple Fitness+ 与一加手机两条 `%2B` 编码 404 坏链及 6 条中文路径编码，补齐 Cloudflare Pages 工作流对 `loon/**` 与 `openloon.html` 的触发覆盖，并保留 GitHub Pages 备用入口；补充登记 2026-11-16 Taipei101 图标。详细实际成果与事实状态见唯一事实源 [PROJECT_STATE.md](PROJECT_STATE.md)。
 
 ---
 
@@ -34,7 +34,7 @@
 > 📌 **填写原则（写“最近同步摘要”，不写长期固定事实）**：本节只写**本次同步的验证方式与结论**，严禁写入会随时间漂移的固定数字或状态。
 
 - **项目唯一详细事实源 (SSOT)**：[`PROJECT_STATE.md`](PROJECT_STATE.md)（已包含六大核心支柱）
-- **核心实测证据摘要**：通过 Headless Chrome 浏览器与 Python 自动化脚本验证 `https://icons.o-ous.com/` 返回 HTTP/2 200，PNG/SVG 图标直链、全局 CORS 头与 Web 图库 3 按钮直链复制正常；通过真实 GitHub Actions CI 运行（Run `39220136085`）与 Cloudflare Pages 部署记录（ID `f867e3b5`）验证自动部署与 fail-stop 门禁闭环。
+- **核心实测证据摘要**：2026-11-21 通过 Python 脚本全量校验 `loon/loon.json` 全部条目（100% 合法 ASCII URI 且物理文件存在），实际 HTTP GET 确认修复后的 `applefitness%252B.png` 与 `oneplus1%252B.png` 均返回 `200 image/png` 且 PNG 魔数合法；`.github/workflows/deploy-pages.yml` 已补齐 `loon/**` 与 `openloon.html` 触发覆盖并跟进远端部署闭环。
 
 ---
 

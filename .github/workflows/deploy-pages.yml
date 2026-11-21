@@ -6,7 +6,9 @@ on:
     paths:
       - 'icons/**'
       - 'data/**'
+      - 'loon/**'
       - 'index.html'
+      - 'openloon.html'
       - '_headers'
   workflow_dispatch:
 
